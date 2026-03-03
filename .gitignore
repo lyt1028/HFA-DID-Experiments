@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Results and plots
+results/
+plots/*.png
+plots/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Credentials and secrets
+*.keystore
+*.pem
+*.crt
+*.key
+
+# Misc
+*.log
+*.bak
