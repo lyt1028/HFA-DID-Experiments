@@ -15,6 +15,8 @@ HFA-DID-Experiments/
 ├── experiments/                 # 7 个实验脚本
 ├── results/                     # 实验结果
 ├── plots/                       # 绘图输出
+├── results/                     # 实验结果（自动生成，已 .gitignore）
+├── plots/                       # 绘图输出（自动生成，已 .gitignore）
 ├── src/
 │   ├── chain/                   # 区块链交互模块
 │   │   ├── fisco_client.py      # FISCOClient 封装类
