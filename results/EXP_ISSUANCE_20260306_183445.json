@@ -1,0 +1,65 @@
+{
+  "experiment": "Issuance Phase Benchmark",
+  "params": {
+    "node_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 5
+  },
+  "results": [
+    {
+      "n": 2,
+      "t": 2,
+      "init_avg_ms": 22.0,
+      "init_std_ms": 0.2,
+      "pubkey_avg_ms": 7.5,
+      "pubkey_std_ms": 0.1,
+      "issue_avg_ms": 997.1,
+      "issue_std_ms": 4.8
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "init_avg_ms": 36.7,
+      "init_std_ms": 0.4,
+      "pubkey_avg_ms": 8.2,
+      "pubkey_std_ms": 0.0,
+      "issue_avg_ms": 1065.9,
+      "issue_std_ms": 5.9
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "init_avg_ms": 52.6,
+      "init_std_ms": 2.8,
+      "pubkey_avg_ms": 15.8,
+      "pubkey_std_ms": 0.1,
+      "issue_avg_ms": 1166.9,
+      "issue_std_ms": 5.2
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "init_avg_ms": 67.7,
+      "init_std_ms": 3.1,
+      "pubkey_avg_ms": 16.3,
+      "pubkey_std_ms": 0.1,
+      "issue_avg_ms": 1232.3,
+      "issue_std_ms": 6.5
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "init_avg_ms": 80.4,
+      "init_std_ms": 1.1,
+      "pubkey_avg_ms": 24.8,
+      "pubkey_std_ms": 0.2,
+      "issue_avg_ms": 1414.1,
+      "issue_std_ms": 8.5
+    }
+  ]
+}

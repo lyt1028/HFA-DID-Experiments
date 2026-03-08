@@ -1,0 +1,65 @@
+{
+  "experiment": "Issuance Phase Benchmark (Feldman VSS + DKG Verify)",
+  "params": {
+    "node_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 5
+  },
+  "results": [
+    {
+      "n": 2,
+      "t": 2,
+      "init_avg_ms": 957.7,
+      "init_std_ms": 3.8,
+      "pubkey_avg_ms": 489.1,
+      "pubkey_std_ms": 2.2,
+      "issue_avg_ms": 167.1,
+      "issue_std_ms": 2.2
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "init_avg_ms": 1006.9,
+      "init_std_ms": 3.5,
+      "pubkey_avg_ms": 507.2,
+      "pubkey_std_ms": 3.3,
+      "issue_avg_ms": 240.2,
+      "issue_std_ms": 4.6
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "init_avg_ms": 1057.1,
+      "init_std_ms": 3.0,
+      "pubkey_avg_ms": 527.8,
+      "pubkey_std_ms": 0.9,
+      "issue_avg_ms": 340.8,
+      "issue_std_ms": 2.3
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "init_avg_ms": 1102.0,
+      "init_std_ms": 3.3,
+      "pubkey_avg_ms": 548.4,
+      "pubkey_std_ms": 2.8,
+      "issue_avg_ms": 411.9,
+      "issue_std_ms": 8.3
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "init_avg_ms": 1183.0,
+      "init_std_ms": 7.5,
+      "pubkey_avg_ms": 581.2,
+      "pubkey_std_ms": 2.8,
+      "issue_avg_ms": 583.0,
+      "issue_std_ms": 7.5
+    }
+  ]
+}

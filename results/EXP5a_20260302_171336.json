@@ -1,0 +1,38 @@
+{
+  "experiment": "Single Update/Revoke Overhead",
+  "params": {
+    "committee_sizes": [
+      4
+    ],
+    "num_trials": 3,
+    "use_chain": false
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "breakdown": [
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Update",
+      "T_request_verify": 0.028,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 0.147,
+      "T_sign_record": 236.441,
+      "T_offchain_total": 236.622
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Revoke",
+      "T_request_verify": 0.029,
+      "T_committee_vote": 0.003,
+      "T_chameleon_forge": 0.146,
+      "T_sign_record": 236.417,
+      "T_offchain_total": 236.596
+    }
+  ]
+}

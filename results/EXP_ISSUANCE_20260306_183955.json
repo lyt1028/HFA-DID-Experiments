@@ -1,0 +1,65 @@
+{
+  "experiment": "Issuance Phase Benchmark",
+  "params": {
+    "node_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 5
+  },
+  "results": [
+    {
+      "n": 2,
+      "t": 2,
+      "init_avg_ms": 29.5,
+      "init_std_ms": 0.2,
+      "sign_avg_ms": 167.8,
+      "sign_std_ms": 2.9,
+      "verify_avg_ms": 831.0,
+      "verify_std_ms": 4.8
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "init_avg_ms": 45.2,
+      "init_std_ms": 0.7,
+      "sign_avg_ms": 237.2,
+      "sign_std_ms": 6.5,
+      "verify_avg_ms": 831.4,
+      "verify_std_ms": 5.4
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "init_avg_ms": 68.1,
+      "init_std_ms": 3.1,
+      "sign_avg_ms": 336.6,
+      "sign_std_ms": 5.7,
+      "verify_avg_ms": 828.1,
+      "verify_std_ms": 1.9
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "init_avg_ms": 84.3,
+      "init_std_ms": 2.9,
+      "sign_avg_ms": 406.1,
+      "sign_std_ms": 6.2,
+      "verify_avg_ms": 830.6,
+      "verify_std_ms": 5.8
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "init_avg_ms": 105.5,
+      "init_std_ms": 0.6,
+      "sign_avg_ms": 584.0,
+      "sign_std_ms": 6.5,
+      "verify_avg_ms": 828.4,
+      "verify_std_ms": 2.7
+    }
+  ]
+}

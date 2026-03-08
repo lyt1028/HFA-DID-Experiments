@@ -1,0 +1,66 @@
+{
+  "experiment": "Intra-Domain Verification Benchmark",
+  "params": {
+    "node_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 30,
+    "num_credentials": 1000
+  },
+  "results": [
+    {
+      "n": 2,
+      "t": 2,
+      "hfa_avg_ms": 40.3,
+      "hfa_std_ms": 2.3,
+      "wei_avg_ms": 44.9,
+      "wei_std_ms": 3.1,
+      "can_avg_ms": 55.7,
+      "can_std_ms": 2.1
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "hfa_avg_ms": 42.8,
+      "hfa_std_ms": 3.2,
+      "wei_avg_ms": 46.7,
+      "wei_std_ms": 2.4,
+      "can_avg_ms": 57.2,
+      "can_std_ms": 0.4
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "hfa_avg_ms": 44.4,
+      "hfa_std_ms": 2.4,
+      "wei_avg_ms": 48.8,
+      "wei_std_ms": 2.2,
+      "can_avg_ms": 59.7,
+      "can_std_ms": 2.5
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "hfa_avg_ms": 47.7,
+      "hfa_std_ms": 3.8,
+      "wei_avg_ms": 51.0,
+      "wei_std_ms": 0.6,
+      "can_avg_ms": 62.2,
+      "can_std_ms": 2.3
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "hfa_avg_ms": 49.5,
+      "hfa_std_ms": 2.2,
+      "wei_avg_ms": 54.0,
+      "wei_std_ms": 1.0,
+      "can_avg_ms": 65.7,
+      "can_std_ms": 3.5
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "experiment": "Intra-Domain Verification Latency",
+  "params": {
+    "request_counts": [
+      100,
+      500,
+      1000
+    ],
+    "committee_size": 6
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "requests": 100,
+      "avg_total_ms": 0.04,
+      "p50_ms": 0.0301,
+      "p95_ms": 0.119,
+      "avg_bls_ms": 0.0294,
+      "avg_merkle_ms": 0.01,
+      "tps": 25020.0,
+      "success_rate": 0.0
+    },
+    {
+      "requests": 500,
+      "avg_total_ms": 0.0306,
+      "p50_ms": 0.0294,
+      "p95_ms": 0.0348,
+      "avg_bls_ms": 0.0235,
+      "avg_merkle_ms": 0.0068,
+      "tps": 32645.6,
+      "success_rate": 0.0
+    },
+    {
+      "requests": 1000,
+      "avg_total_ms": 0.0321,
+      "p50_ms": 0.0301,
+      "p95_ms": 0.038,
+      "avg_bls_ms": 0.0246,
+      "avg_merkle_ms": 0.0071,
+      "tps": 31149.0,
+      "success_rate": 0.0
+    }
+  ],
+  "real_bls_verify_ms": 769.2
+}

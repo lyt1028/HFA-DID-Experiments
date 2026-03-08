@@ -1,0 +1,28 @@
+{
+  "experiment": "Credential Scale vs Anchoring Overhead",
+  "params": {
+    "credential_counts": [
+      100
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "n_vc": 100,
+      "leaf_hash_ms": 0.25,
+      "sort_ms": 0.01,
+      "build_ms": 0.11,
+      "chain_anchor_ms": 1762.9,
+      "chain_query_ms": 3.06,
+      "offchain_total_ms": 0.38,
+      "total_with_chain_ms": 1763.3,
+      "tree_depth": 7,
+      "storage_bytes": 188
+    }
+  ]
+}

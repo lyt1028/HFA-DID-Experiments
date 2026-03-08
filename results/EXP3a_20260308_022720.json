@@ -1,0 +1,84 @@
+{
+  "experiment": "E2E Pipeline Overhead (DCL→GCL→RTL)",
+  "params": {
+    "domain_counts": [
+      2,
+      5,
+      10,
+      15,
+      20
+    ],
+    "credentials_per_domain": 1000,
+    "rtl_n": 5,
+    "rtl_t": 3,
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "dcl_merkle_ms": 3.76,
+      "dcl_chain_ms": 1170.37,
+      "gcl_aggregate_ms": 0.03,
+      "gcl_chain_ms": 1011.87,
+      "rtl_sign_ms": 1086.05,
+      "rtl_chain_ms": 1011.56,
+      "total_offchain_ms": 1089.84,
+      "total_chain_ms": 3193.81,
+      "total_ms": 4283.65,
+      "m": 2
+    },
+    {
+      "dcl_merkle_ms": 3.74,
+      "dcl_chain_ms": 1414.16,
+      "gcl_aggregate_ms": 0.04,
+      "gcl_chain_ms": 1011.74,
+      "rtl_sign_ms": 1081.26,
+      "rtl_chain_ms": 1412.35,
+      "total_offchain_ms": 1085.04,
+      "total_chain_ms": 3838.26,
+      "total_ms": 4923.3,
+      "m": 5
+    },
+    {
+      "dcl_merkle_ms": 5.12,
+      "dcl_chain_ms": 1617.22,
+      "gcl_aggregate_ms": 0.06,
+      "gcl_chain_ms": 1012.23,
+      "rtl_sign_ms": 1086.9,
+      "rtl_chain_ms": 1011.85,
+      "total_offchain_ms": 1092.08,
+      "total_chain_ms": 3641.3,
+      "total_ms": 4733.38,
+      "m": 10
+    },
+    {
+      "dcl_merkle_ms": 4.69,
+      "dcl_chain_ms": 1016.43,
+      "gcl_aggregate_ms": 0.07,
+      "gcl_chain_ms": 1011.17,
+      "rtl_sign_ms": 1086.45,
+      "rtl_chain_ms": 1011.5,
+      "total_offchain_ms": 1091.21,
+      "total_chain_ms": 3039.09,
+      "total_ms": 4130.31,
+      "m": 15
+    },
+    {
+      "dcl_merkle_ms": 3.89,
+      "dcl_chain_ms": 1016.79,
+      "gcl_aggregate_ms": 0.08,
+      "gcl_chain_ms": 1014.51,
+      "rtl_sign_ms": 1093.79,
+      "rtl_chain_ms": 1010.89,
+      "total_offchain_ms": 1097.75,
+      "total_chain_ms": 3042.19,
+      "total_ms": 4139.94,
+      "m": 20
+    }
+  ]
+}

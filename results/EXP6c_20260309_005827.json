@@ -1,0 +1,25 @@
+{
+  "experiment": "Pre/Post Update Verification Cost",
+  "params": {
+    "num_credentials": 200,
+    "num_updates": 50,
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "before_avg_ms": 0.0616,
+  "before_p50_ms": 0.0601,
+  "before_p95_ms": 0.0735,
+  "after_avg_ms": 0.0623,
+  "after_p50_ms": 0.0608,
+  "after_p95_ms": 0.0715,
+  "diff_percent": 1.25,
+  "within_5_percent": true,
+  "chain_query_before_avg_ms": 2.64,
+  "chain_query_after_avg_ms": 2.35,
+  "chain_query_diff_ms": 0.29
+}

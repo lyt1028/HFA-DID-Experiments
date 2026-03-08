@@ -1,0 +1,125 @@
+{
+  "experiment": "Single Update/Revoke Overhead",
+  "params": {
+    "committee_sizes": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 30,
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "breakdown": [
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Update",
+      "T_request_verify": 0.048,
+      "T_committee_vote": 0.004,
+      "T_chameleon_forge": 0.198,
+      "T_sign_record": 240.727,
+      "T_offchain_total": 240.977,
+      "T_chain_register": 1038.6,
+      "T_chain_record": 1011.1,
+      "T_total_with_chain": 1252.1
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Revoke",
+      "T_request_verify": 0.047,
+      "T_committee_vote": 0.004,
+      "T_chameleon_forge": 0.153,
+      "T_sign_record": 241.463,
+      "T_offchain_total": 241.667,
+      "T_chain_register": 1012.3,
+      "T_chain_record": 1011.1,
+      "T_total_with_chain": 1252.8
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "op": "Update",
+      "T_request_verify": 0.047,
+      "T_committee_vote": 0.004,
+      "T_chameleon_forge": 0.167,
+      "T_sign_record": 339.303,
+      "T_offchain_total": 339.522,
+      "T_chain_register": 1012.2,
+      "T_chain_record": 1011.1,
+      "T_total_with_chain": 1350.6
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "op": "Revoke",
+      "T_request_verify": 0.049,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 0.167,
+      "T_sign_record": 341.608,
+      "T_offchain_total": 341.829,
+      "T_chain_register": 1012.5,
+      "T_chain_record": 1077.7,
+      "T_total_with_chain": 1419.5
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "op": "Update",
+      "T_request_verify": 0.043,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 0.153,
+      "T_sign_record": 411.854,
+      "T_offchain_total": 412.056,
+      "T_chain_register": 1011.8,
+      "T_chain_record": 1011.2,
+      "T_total_with_chain": 1423.2
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "op": "Revoke",
+      "T_request_verify": 0.043,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 0.154,
+      "T_sign_record": 413.749,
+      "T_offchain_total": 413.951,
+      "T_chain_register": 1011.4,
+      "T_chain_record": 1011.0,
+      "T_total_with_chain": 1424.9
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "op": "Update",
+      "T_request_verify": 0.045,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 0.176,
+      "T_sign_record": 583.103,
+      "T_offchain_total": 583.33,
+      "T_chain_register": 1012.0,
+      "T_chain_record": 1011.5,
+      "T_total_with_chain": 1594.8
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "op": "Revoke",
+      "T_request_verify": 0.045,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 0.175,
+      "T_sign_record": 584.503,
+      "T_offchain_total": 584.728,
+      "T_chain_register": 1011.6,
+      "T_chain_record": 1044.8,
+      "T_total_with_chain": 1629.6
+    }
+  ]
+}

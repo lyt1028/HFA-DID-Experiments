@@ -1,0 +1,205 @@
+{
+  "experiment": "Multi-Epoch Snapshot Consistency",
+  "params": {
+    "num_epochs": 20,
+    "m": 10,
+    "window_ms": 3000,
+    "num_trials": 10,
+    "perturbation_schedule": [
+      {
+        "epochs": "6-8",
+        "domains": [
+          0,
+          1
+        ],
+        "type": "delay_multiplier"
+      },
+      {
+        "epochs": "9-12",
+        "domains": [
+          2,
+          3,
+          4
+        ],
+        "type": "random_failure"
+      },
+      {
+        "epochs": "13-15",
+        "domains": [
+          5,
+          6
+        ],
+        "type": "partition"
+      }
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "aggregated": [
+    {
+      "epoch": 1,
+      "avg_inclusion_rate_pct": 82.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8.2,
+      "consistency_rate_pct": 100.0
+    },
+    {
+      "epoch": 2,
+      "avg_inclusion_rate_pct": 91.0,
+      "min_inclusion_rate_pct": 80.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 9.1,
+      "consistency_rate_pct": 10.0
+    },
+    {
+      "epoch": 3,
+      "avg_inclusion_rate_pct": 88.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8.8,
+      "consistency_rate_pct": 20.0
+    },
+    {
+      "epoch": 4,
+      "avg_inclusion_rate_pct": 86.0,
+      "min_inclusion_rate_pct": 70.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8.6,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 5,
+      "avg_inclusion_rate_pct": 90.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 9,
+      "consistency_rate_pct": 20.0
+    },
+    {
+      "epoch": 6,
+      "avg_inclusion_rate_pct": 76.0,
+      "min_inclusion_rate_pct": 70.0,
+      "max_inclusion_rate_pct": 90.0,
+      "avg_included_count": 7.6,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 7,
+      "avg_inclusion_rate_pct": 85.0,
+      "min_inclusion_rate_pct": 70.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8.5,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 8,
+      "avg_inclusion_rate_pct": 80.0,
+      "min_inclusion_rate_pct": 70.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8,
+      "consistency_rate_pct": 10.0
+    },
+    {
+      "epoch": 9,
+      "avg_inclusion_rate_pct": 73.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 90.0,
+      "avg_included_count": 7.3,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 10,
+      "avg_inclusion_rate_pct": 77.0,
+      "min_inclusion_rate_pct": 50.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 7.7,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 11,
+      "avg_inclusion_rate_pct": 74.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 7.4,
+      "consistency_rate_pct": 10.0
+    },
+    {
+      "epoch": 12,
+      "avg_inclusion_rate_pct": 84.0,
+      "min_inclusion_rate_pct": 70.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8.4,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 13,
+      "avg_inclusion_rate_pct": 71.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 80.0,
+      "avg_included_count": 7.1,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 14,
+      "avg_inclusion_rate_pct": 73.0,
+      "min_inclusion_rate_pct": 70.0,
+      "max_inclusion_rate_pct": 80.0,
+      "avg_included_count": 7.3,
+      "consistency_rate_pct": 10.0
+    },
+    {
+      "epoch": 15,
+      "avg_inclusion_rate_pct": 71.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 80.0,
+      "avg_included_count": 7.1,
+      "consistency_rate_pct": 20.0
+    },
+    {
+      "epoch": 16,
+      "avg_inclusion_rate_pct": 88.0,
+      "min_inclusion_rate_pct": 60.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8.8,
+      "consistency_rate_pct": 0.0
+    },
+    {
+      "epoch": 17,
+      "avg_inclusion_rate_pct": 94.0,
+      "min_inclusion_rate_pct": 80.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 9.4,
+      "consistency_rate_pct": 20.0
+    },
+    {
+      "epoch": 18,
+      "avg_inclusion_rate_pct": 87.0,
+      "min_inclusion_rate_pct": 70.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 8.7,
+      "consistency_rate_pct": 10.0
+    },
+    {
+      "epoch": 19,
+      "avg_inclusion_rate_pct": 93.0,
+      "min_inclusion_rate_pct": 80.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 9.3,
+      "consistency_rate_pct": 10.0
+    },
+    {
+      "epoch": 20,
+      "avg_inclusion_rate_pct": 92.0,
+      "min_inclusion_rate_pct": 80.0,
+      "max_inclusion_rate_pct": 100.0,
+      "avg_included_count": 9.2,
+      "consistency_rate_pct": 10.0
+    }
+  ],
+  "recovery_epoch": null
+}

@@ -1,0 +1,51 @@
+{
+  "experiment": "Intra-Domain Verification Comparison",
+  "params": {
+    "num_trials": 200,
+    "num_credentials": 1000
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "load": "1x",
+      "hfa_avg_ms": 0.0179,
+      "hfa_p95_ms": 0.0315,
+      "wei_avg_ms": 0.0438,
+      "wei_p95_ms": 0.0492,
+      "can_avg_ms": 3.217,
+      "can_p95_ms": 3.2676
+    },
+    {
+      "load": "5x",
+      "hfa_avg_ms": 0.0168,
+      "hfa_p95_ms": 0.0243,
+      "wei_avg_ms": 0.1653,
+      "wei_p95_ms": 0.1765,
+      "can_avg_ms": 4.946,
+      "can_p95_ms": 5.3111
+    },
+    {
+      "load": "10x",
+      "hfa_avg_ms": 0.0165,
+      "hfa_p95_ms": 0.0238,
+      "wei_avg_ms": 0.4037,
+      "wei_p95_ms": 0.5839,
+      "can_avg_ms": 6.9934,
+      "can_p95_ms": 7.1379
+    },
+    {
+      "load": "20x",
+      "hfa_avg_ms": 0.0162,
+      "hfa_p95_ms": 0.0184,
+      "wei_avg_ms": 0.6261,
+      "wei_p95_ms": 0.6502,
+      "can_avg_ms": 11.0374,
+      "can_p95_ms": 11.1705
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "experiment": "Cross-Domain Verification Benchmark",
+  "params": {
+    "node_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 30,
+    "num_credentials": 1000,
+    "num_domains": 5
+  },
+  "results": [
+    {
+      "n": 2,
+      "t": 2,
+      "hfa_avg_ms": 75.9,
+      "hfa_std_ms": 3.0,
+      "did_avg_ms": 127.7,
+      "did_std_ms": 3.8
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "hfa_avg_ms": 79.7,
+      "hfa_std_ms": 3.6,
+      "did_avg_ms": 140.5,
+      "did_std_ms": 3.8
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "hfa_avg_ms": 84.2,
+      "hfa_std_ms": 3.6,
+      "did_avg_ms": 154.9,
+      "did_std_ms": 3.8
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "hfa_avg_ms": 89.0,
+      "hfa_std_ms": 3.1,
+      "did_avg_ms": 170.0,
+      "did_std_ms": 4.3
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "hfa_avg_ms": 93.2,
+      "hfa_std_ms": 1.3,
+      "did_avg_ms": 186.3,
+      "did_std_ms": 5.4
+    }
+  ]
+}

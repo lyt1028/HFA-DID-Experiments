@@ -1,0 +1,32 @@
+{
+  "experiment": "Cross-Epoch Share Independence",
+  "params": {
+    "num_epochs": 3,
+    "threshold": 5
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "attacks": [
+    {
+      "attack": "单周期E1 (4份额)",
+      "success": false
+    },
+    {
+      "attack": "单周期E2 (4份额)",
+      "success": false
+    },
+    {
+      "attack": "单周期E3 (4份额)",
+      "success": false
+    },
+    {
+      "attack": "跨周期混合 (5份额)",
+      "success": false
+    }
+  ],
+  "all_attacks_failed": true
+}

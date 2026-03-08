@@ -1,0 +1,78 @@
+{
+  "experiment": "Cross-Domain Under Network Perturbation",
+  "params": {
+    "num_domains": 4
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "network": "2ms/0%",
+      "avg_ms": 4.05,
+      "p50_ms": 4.04,
+      "p95_ms": 4.62,
+      "success_rate": 100.0,
+      "timeout_rate": 0.0
+    },
+    {
+      "network": "10ms/0%",
+      "avg_ms": 19.89,
+      "p50_ms": 19.76,
+      "p95_ms": 22.94,
+      "success_rate": 100.0,
+      "timeout_rate": 0.0
+    },
+    {
+      "network": "50ms/0%",
+      "avg_ms": 99.85,
+      "p50_ms": 99.79,
+      "p95_ms": 114.19,
+      "success_rate": 100.0,
+      "timeout_rate": 0.0
+    },
+    {
+      "network": "100ms/0%",
+      "avg_ms": 200.28,
+      "p50_ms": 201.13,
+      "p95_ms": 234.14,
+      "success_rate": 100.0,
+      "timeout_rate": 0.0
+    },
+    {
+      "network": "10ms/1%",
+      "avg_ms": 119.39,
+      "p50_ms": 19.91,
+      "p95_ms": 23.45,
+      "success_rate": 98.0,
+      "timeout_rate": 2.0
+    },
+    {
+      "network": "10ms/5%",
+      "avg_ms": 766.96,
+      "p50_ms": 20.39,
+      "p95_ms": 5000,
+      "success_rate": 85.0,
+      "timeout_rate": 15.0
+    },
+    {
+      "network": "50ms/5%",
+      "avg_ms": 393.56,
+      "p50_ms": 100.73,
+      "p95_ms": 5000,
+      "success_rate": 94.0,
+      "timeout_rate": 6.0
+    },
+    {
+      "network": "100ms/10%",
+      "avg_ms": 1065.17,
+      "p50_ms": 206.2,
+      "p95_ms": 5000,
+      "success_rate": 82.0,
+      "timeout_rate": 18.0
+    }
+  ]
+}

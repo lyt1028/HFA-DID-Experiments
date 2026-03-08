@@ -1,0 +1,40 @@
+{
+  "experiment": "Batch Update Throughput",
+  "params": {
+    "batch_sizes": [
+      10,
+      50,
+      100
+    ],
+    "committee_size": 8
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "batch_size": 10,
+      "total_time_ms": 5.5,
+      "avg_per_item_ms": 0.549,
+      "tps": 1821.33,
+      "success_rate": 100.0
+    },
+    {
+      "batch_size": 50,
+      "total_time_ms": 25.7,
+      "avg_per_item_ms": 0.514,
+      "tps": 1945.4,
+      "success_rate": 100.0
+    },
+    {
+      "batch_size": 100,
+      "total_time_ms": 52.5,
+      "avg_per_item_ms": 0.525,
+      "tps": 1906.23,
+      "success_rate": 100.0
+    }
+  ]
+}

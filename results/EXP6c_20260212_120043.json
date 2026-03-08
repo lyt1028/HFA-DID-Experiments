@@ -1,0 +1,21 @@
+{
+  "experiment": "Pre/Post Update Verification Cost",
+  "params": {
+    "num_credentials": 200,
+    "num_updates": 50
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "before_avg_ms": 0.0593,
+  "before_p50_ms": 0.0596,
+  "before_p95_ms": 0.0632,
+  "after_avg_ms": 0.0702,
+  "after_p50_ms": 0.0588,
+  "after_p95_ms": 0.2079,
+  "diff_percent": 18.47,
+  "within_5_percent": false
+}

@@ -1,0 +1,601 @@
+{
+  "experiment": "Aggregation Time Window & Version Coordination",
+  "params": {
+    "domain_counts": [
+      5,
+      10,
+      20
+    ],
+    "window_widths": [
+      500,
+      1000,
+      2000,
+      3000,
+      5000,
+      8000,
+      10000
+    ],
+    "delay_sigmas": [
+      0.3,
+      0.5,
+      0.8
+    ],
+    "delay_mu": 7.313220387090301,
+    "num_epochs": 50
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "m": 5,
+      "sigma": 0.3,
+      "window_ms": 500,
+      "inclusion_rate_pct": 0.0,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 0
+    },
+    {
+      "m": 5,
+      "sigma": 0.3,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 5.2,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 220.2
+    },
+    {
+      "m": 5,
+      "sigma": 0.3,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 78.6,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 37,
+      "avg_actual_wait_ms": 1758.0
+    },
+    {
+      "m": 5,
+      "sigma": 0.3,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 99.0,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 2.4,
+      "avg_actual_wait_ms": 2219.0
+    },
+    {
+      "m": 5,
+      "sigma": 0.3,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2267.2
+    },
+    {
+      "m": 5,
+      "sigma": 0.3,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2273.5
+    },
+    {
+      "m": 5,
+      "sigma": 0.3,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2265.2
+    },
+    {
+      "m": 5,
+      "sigma": 0.5,
+      "window_ms": 500,
+      "inclusion_rate_pct": 0.3,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 7.0
+    },
+    {
+      "m": 5,
+      "sigma": 0.5,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 15.5,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 466.7
+    },
+    {
+      "m": 5,
+      "sigma": 0.5,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 68.4,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 42.4,
+      "avg_actual_wait_ms": 1643.1
+    },
+    {
+      "m": 5,
+      "sigma": 0.5,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 90.7,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 19,
+      "avg_actual_wait_ms": 2302.2
+    },
+    {
+      "m": 5,
+      "sigma": 0.5,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 99.6,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 1,
+      "avg_actual_wait_ms": 2860.4
+    },
+    {
+      "m": 5,
+      "sigma": 0.5,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 99.8,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 0.4,
+      "avg_actual_wait_ms": 2910.1
+    },
+    {
+      "m": 5,
+      "sigma": 0.5,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2933.6
+    },
+    {
+      "m": 5,
+      "sigma": 0.8,
+      "window_ms": 500,
+      "inclusion_rate_pct": 5.2,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 94.2
+    },
+    {
+      "m": 5,
+      "sigma": 0.8,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 28.0,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 616.7
+    },
+    {
+      "m": 5,
+      "sigma": 0.8,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 62.9,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 44.2,
+      "avg_actual_wait_ms": 1476.4
+    },
+    {
+      "m": 5,
+      "sigma": 0.8,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 80.2,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 33.2,
+      "avg_actual_wait_ms": 2144.5
+    },
+    {
+      "m": 5,
+      "sigma": 0.8,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 92.8,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 14.6,
+      "avg_actual_wait_ms": 3137.8
+    },
+    {
+      "m": 5,
+      "sigma": 0.8,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 98.5,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 3.6,
+      "avg_actual_wait_ms": 3866.2
+    },
+    {
+      "m": 5,
+      "sigma": 0.8,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 98.7,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 2.8,
+      "avg_actual_wait_ms": 4008.4
+    },
+    {
+      "m": 10,
+      "sigma": 0.3,
+      "window_ms": 500,
+      "inclusion_rate_pct": 0.0,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 0
+    },
+    {
+      "m": 10,
+      "sigma": 0.3,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 5.2,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 375.6
+    },
+    {
+      "m": 10,
+      "sigma": 0.3,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 79.4,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 45,
+      "avg_actual_wait_ms": 1856.6
+    },
+    {
+      "m": 10,
+      "sigma": 0.3,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 98.6,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 6.6,
+      "avg_actual_wait_ms": 2380.8
+    },
+    {
+      "m": 10,
+      "sigma": 0.3,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2542.5
+    },
+    {
+      "m": 10,
+      "sigma": 0.3,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2497.7
+    },
+    {
+      "m": 10,
+      "sigma": 0.3,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2571.3
+    },
+    {
+      "m": 10,
+      "sigma": 0.5,
+      "window_ms": 500,
+      "inclusion_rate_pct": 0.8,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 30.1
+    },
+    {
+      "m": 10,
+      "sigma": 0.5,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 14.9,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 679.9
+    },
+    {
+      "m": 10,
+      "sigma": 0.5,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 67.3,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 49,
+      "avg_actual_wait_ms": 1800.3
+    },
+    {
+      "m": 10,
+      "sigma": 0.5,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 90.6,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 31.6,
+      "avg_actual_wait_ms": 2519.6
+    },
+    {
+      "m": 10,
+      "sigma": 0.5,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 99.5,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 2.6,
+      "avg_actual_wait_ms": 3124.9
+    },
+    {
+      "m": 10,
+      "sigma": 0.5,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 0.2,
+      "avg_actual_wait_ms": 3519.9
+    },
+    {
+      "m": 10,
+      "sigma": 0.5,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 3462.7
+    },
+    {
+      "m": 10,
+      "sigma": 0.8,
+      "window_ms": 500,
+      "inclusion_rate_pct": 5.3,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 165.7
+    },
+    {
+      "m": 10,
+      "sigma": 0.8,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 26.4,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 778.5
+    },
+    {
+      "m": 10,
+      "sigma": 0.8,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 61.8,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 49.8,
+      "avg_actual_wait_ms": 1702.6
+    },
+    {
+      "m": 10,
+      "sigma": 0.8,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 79.5,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 45,
+      "avg_actual_wait_ms": 2426.8
+    },
+    {
+      "m": 10,
+      "sigma": 0.8,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 93.1,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 25.8,
+      "avg_actual_wait_ms": 3685.5
+    },
+    {
+      "m": 10,
+      "sigma": 0.8,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 97.8,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 10,
+      "avg_actual_wait_ms": 4682.3
+    },
+    {
+      "m": 10,
+      "sigma": 0.8,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 99.1,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 4.4,
+      "avg_actual_wait_ms": 5198.2
+    },
+    {
+      "m": 20,
+      "sigma": 0.3,
+      "window_ms": 500,
+      "inclusion_rate_pct": 0.0,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 0
+    },
+    {
+      "m": 20,
+      "sigma": 0.3,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 4.6,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 549.3
+    },
+    {
+      "m": 20,
+      "sigma": 0.3,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 78.5,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 49.8,
+      "avg_actual_wait_ms": 1917.1
+    },
+    {
+      "m": 20,
+      "sigma": 0.3,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 98.5,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 14.2,
+      "avg_actual_wait_ms": 2571.7
+    },
+    {
+      "m": 20,
+      "sigma": 0.3,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2734.5
+    },
+    {
+      "m": 20,
+      "sigma": 0.3,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2751.3
+    },
+    {
+      "m": 20,
+      "sigma": 0.3,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 0,
+      "avg_actual_wait_ms": 2775.2
+    },
+    {
+      "m": 20,
+      "sigma": 0.5,
+      "window_ms": 500,
+      "inclusion_rate_pct": 0.5,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 41.8
+    },
+    {
+      "m": 20,
+      "sigma": 0.5,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 15.9,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 885.8
+    },
+    {
+      "m": 20,
+      "sigma": 0.5,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 68.1,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 1888.5
+    },
+    {
+      "m": 20,
+      "sigma": 0.5,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 90.4,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 43.4,
+      "avg_actual_wait_ms": 2699.0
+    },
+    {
+      "m": 20,
+      "sigma": 0.5,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 99.4,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 6.2,
+      "avg_actual_wait_ms": 3668.5
+    },
+    {
+      "m": 20,
+      "sigma": 0.5,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 99.9,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 0.6,
+      "avg_actual_wait_ms": 4001.5
+    },
+    {
+      "m": 20,
+      "sigma": 0.5,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 100.0,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 0.2,
+      "avg_actual_wait_ms": 3932.7
+    },
+    {
+      "m": 20,
+      "sigma": 0.8,
+      "window_ms": 500,
+      "inclusion_rate_pct": 4.7,
+      "e2e_latency_ms": 2613.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 235.4
+    },
+    {
+      "m": 20,
+      "sigma": 0.8,
+      "window_ms": 1000,
+      "inclusion_rate_pct": 26.3,
+      "e2e_latency_ms": 3113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 887.1
+    },
+    {
+      "m": 20,
+      "sigma": 0.8,
+      "window_ms": 2000,
+      "inclusion_rate_pct": 61.8,
+      "e2e_latency_ms": 4113.0,
+      "incomplete_epochs_of_50": 50,
+      "avg_actual_wait_ms": 1837.1
+    },
+    {
+      "m": 20,
+      "sigma": 0.8,
+      "window_ms": 3000,
+      "inclusion_rate_pct": 80.0,
+      "e2e_latency_ms": 5113.0,
+      "incomplete_epochs_of_50": 49.4,
+      "avg_actual_wait_ms": 2674.9
+    },
+    {
+      "m": 20,
+      "sigma": 0.8,
+      "window_ms": 5000,
+      "inclusion_rate_pct": 93.2,
+      "e2e_latency_ms": 7113.0,
+      "incomplete_epochs_of_50": 37.6,
+      "avg_actual_wait_ms": 4156.7
+    },
+    {
+      "m": 20,
+      "sigma": 0.8,
+      "window_ms": 8000,
+      "inclusion_rate_pct": 98.4,
+      "e2e_latency_ms": 10113.0,
+      "incomplete_epochs_of_50": 15,
+      "avg_actual_wait_ms": 5375.8
+    },
+    {
+      "m": 20,
+      "sigma": 0.8,
+      "window_ms": 10000,
+      "inclusion_rate_pct": 99.2,
+      "e2e_latency_ms": 12113.0,
+      "incomplete_epochs_of_50": 7.6,
+      "avg_actual_wait_ms": 6199.4
+    }
+  ]
+}

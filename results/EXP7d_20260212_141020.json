@@ -1,0 +1,67 @@
+{
+  "experiment": "Rotation Service Impact",
+  "params": {
+    "committee_sizes": [
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "n": 4,
+      "t": 3,
+      "rotated": 1,
+      "poly_gen_ms": 0.04,
+      "distribute_ms": 0.005,
+      "aggregate_ms": 0.016,
+      "verify_ms": 0.027,
+      "total_ms": 0.09,
+      "service_gap_ms": 0.061,
+      "invariant_ok": true
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "rotated": 2,
+      "poly_gen_ms": 0.086,
+      "distribute_ms": 0.005,
+      "aggregate_ms": 0.019,
+      "verify_ms": 0.038,
+      "total_ms": 0.151,
+      "service_gap_ms": 0.111,
+      "invariant_ok": true
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "rotated": 2,
+      "poly_gen_ms": 0.136,
+      "distribute_ms": 0.005,
+      "aggregate_ms": 0.023,
+      "verify_ms": 0.038,
+      "total_ms": 0.204,
+      "service_gap_ms": 0.163,
+      "invariant_ok": true
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "rotated": 3,
+      "poly_gen_ms": 0.298,
+      "distribute_ms": 0.007,
+      "aggregate_ms": 0.031,
+      "verify_ms": 0.066,
+      "total_ms": 0.405,
+      "service_gap_ms": 0.336,
+      "invariant_ok": true
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "experiment": "Re-DKG Functional Correctness",
+  "params": {
+    "committee_old": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "committee_new": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "threshold": 7
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "test_results": [
+    {
+      "test": "旧委员会执行更新",
+      "expected": "PASS",
+      "actual": "PASS",
+      "ok": true
+    },
+    {
+      "test": "陷门总值不变性 (Re-DKG后)",
+      "expected": "PASS",
+      "actual": "PASS",
+      "ok": true
+    },
+    {
+      "test": "新委员会执行更新",
+      "expected": "PASS",
+      "actual": "PASS",
+      "ok": true
+    },
+    {
+      "test": "退出节点攻击 (旧份额 < 门限)",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    },
+    {
+      "test": "混合份额攻击 (旧+新)",
+      "expected": "BLOCKED",
+      "actual": "BLOCKED",
+      "ok": true
+    }
+  ],
+  "all_pass": true
+}

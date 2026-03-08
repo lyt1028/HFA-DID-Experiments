@@ -2,10 +2,10 @@
 __pycache__/
 *.pyc
 
-# Results and plots
-results/
+# Plots (generated, can be re-created)
 plots/*.png
 plots/*.pdf
+plots/output/*.pdf
 
 # OS files
 .DS_Store
@@ -24,3 +24,6 @@ Thumbs.db
 # Misc
 *.log
 *.bak
+
+# Temp scripts
+run_exp*_chain.py

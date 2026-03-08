@@ -1,0 +1,76 @@
+{
+  "experiment": "Cross-Domain Verification vs Domain Scale",
+  "params": {
+    "domain_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "credentials_per_domain": 1000
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "m": 2,
+      "rtl_query_ms": 2.0394,
+      "gcl_query_ms": 2.0132,
+      "local_merkle_ms": 0.0906,
+      "global_merkle_ms": 0.0115,
+      "bls_verify_ms": 0.1219,
+      "rtl_endorse_ms": 0.0603,
+      "total_ms": 4.3369,
+      "success_rate": 100.0
+    },
+    {
+      "m": 4,
+      "rtl_query_ms": 2.0325,
+      "gcl_query_ms": 1.9854,
+      "local_merkle_ms": 0.1023,
+      "global_merkle_ms": 0.0166,
+      "bls_verify_ms": 0.136,
+      "rtl_endorse_ms": 0.0678,
+      "total_ms": 4.3407,
+      "success_rate": 100.0
+    },
+    {
+      "m": 6,
+      "rtl_query_ms": 2.0023,
+      "gcl_query_ms": 1.9888,
+      "local_merkle_ms": 0.0809,
+      "global_merkle_ms": 0.0167,
+      "bls_verify_ms": 0.1252,
+      "rtl_endorse_ms": 0.0612,
+      "total_ms": 4.275,
+      "success_rate": 100.0
+    },
+    {
+      "m": 8,
+      "rtl_query_ms": 1.9922,
+      "gcl_query_ms": 2.0071,
+      "local_merkle_ms": 0.0731,
+      "global_merkle_ms": 0.0143,
+      "bls_verify_ms": 0.1064,
+      "rtl_endorse_ms": 0.0526,
+      "total_ms": 4.2457,
+      "success_rate": 100.0
+    },
+    {
+      "m": 10,
+      "rtl_query_ms": 2.0408,
+      "gcl_query_ms": 2.0,
+      "local_merkle_ms": 0.0658,
+      "global_merkle_ms": 0.0163,
+      "bls_verify_ms": 0.1014,
+      "rtl_endorse_ms": 0.0482,
+      "total_ms": 4.2724,
+      "success_rate": 100.0
+    }
+  ]
+}

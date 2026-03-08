@@ -1,0 +1,46 @@
+{
+  "experiment": "RTL Threshold Endorsement",
+  "params": {
+    "committee_sizes": [
+      3,
+      5,
+      7
+    ],
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "n": 3,
+      "t": 3,
+      "sign_avg_ms": 1072.4,
+      "sign_min_ms": 1063.2,
+      "sign_max_ms": 1083.8,
+      "chain_anchor_ms": 1012.3,
+      "total_with_chain_ms": 2084.7
+    },
+    {
+      "n": 5,
+      "t": 4,
+      "sign_avg_ms": 1178.8,
+      "sign_min_ms": 1173.4,
+      "sign_max_ms": 1187.2,
+      "chain_anchor_ms": 1011.1,
+      "total_with_chain_ms": 2190.0
+    },
+    {
+      "n": 7,
+      "t": 5,
+      "sign_avg_ms": 1240.2,
+      "sign_min_ms": 1234.2,
+      "sign_max_ms": 1251.5,
+      "chain_anchor_ms": 1011.3,
+      "total_with_chain_ms": 2251.5
+    }
+  ]
+}

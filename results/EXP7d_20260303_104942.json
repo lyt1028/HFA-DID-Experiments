@@ -1,0 +1,80 @@
+{
+  "experiment": "Rotation Service Impact",
+  "params": {
+    "committee_sizes": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "n": 4,
+      "t": 3,
+      "rotated": 1,
+      "poly_gen_ms": 0.039,
+      "distribute_ms": 0.002,
+      "aggregate_ms": 0.011,
+      "verify_ms": 0.02,
+      "total_ms": 0.075,
+      "service_gap_ms": 0.052,
+      "invariant_ok": true,
+      "chain_rotate_ms": 1010.4,
+      "chain_roster_ms": 1010.9,
+      "total_with_chain_ms": 2021.4
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "rotated": 2,
+      "poly_gen_ms": 0.102,
+      "distribute_ms": 0.002,
+      "aggregate_ms": 0.014,
+      "verify_ms": 0.029,
+      "total_ms": 0.149,
+      "service_gap_ms": 0.119,
+      "invariant_ok": true,
+      "chain_rotate_ms": 1011.4,
+      "chain_roster_ms": 1015.2,
+      "total_with_chain_ms": 2026.7
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "rotated": 2,
+      "poly_gen_ms": 0.215,
+      "distribute_ms": 0.003,
+      "aggregate_ms": 0.02,
+      "verify_ms": 0.037,
+      "total_ms": 0.278,
+      "service_gap_ms": 0.238,
+      "invariant_ok": true,
+      "chain_rotate_ms": 1010.6,
+      "chain_roster_ms": 1012.8,
+      "total_with_chain_ms": 2023.7
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "rotated": 3,
+      "poly_gen_ms": 0.438,
+      "distribute_ms": 0.003,
+      "aggregate_ms": 0.024,
+      "verify_ms": 0.058,
+      "total_ms": 0.523,
+      "service_gap_ms": 0.464,
+      "invariant_ok": true,
+      "chain_rotate_ms": 1011.4,
+      "chain_roster_ms": 1011.1,
+      "total_with_chain_ms": 2023.1
+    }
+  ]
+}

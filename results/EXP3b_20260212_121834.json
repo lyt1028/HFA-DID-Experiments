@@ -1,0 +1,92 @@
+{
+  "experiment": "Domain Scale vs GCL Aggregation",
+  "params": {
+    "domain_counts": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "m": 2,
+      "domain_anchor_ms": 3.02,
+      "verify_ms": 0.002,
+      "sort_ms": 0.002,
+      "global_build_ms": 0.003,
+      "snapshot_ms": 0.015,
+      "total_ms": 3.04,
+      "snapshot_bytes": 192
+    },
+    {
+      "m": 4,
+      "domain_anchor_ms": 5.85,
+      "verify_ms": 0.003,
+      "sort_ms": 0.003,
+      "global_build_ms": 0.005,
+      "snapshot_ms": 0.017,
+      "total_ms": 5.88,
+      "snapshot_bytes": 210
+    },
+    {
+      "m": 6,
+      "domain_anchor_ms": 9.35,
+      "verify_ms": 0.004,
+      "sort_ms": 0.004,
+      "global_build_ms": 0.008,
+      "snapshot_ms": 0.025,
+      "total_ms": 9.39,
+      "snapshot_bytes": 228
+    },
+    {
+      "m": 8,
+      "domain_anchor_ms": 12.23,
+      "verify_ms": 0.005,
+      "sort_ms": 0.005,
+      "global_build_ms": 0.008,
+      "snapshot_ms": 0.027,
+      "total_ms": 12.27,
+      "snapshot_bytes": 246
+    },
+    {
+      "m": 10,
+      "domain_anchor_ms": 14.74,
+      "verify_ms": 0.006,
+      "sort_ms": 0.004,
+      "global_build_ms": 0.011,
+      "snapshot_ms": 0.024,
+      "total_ms": 14.79,
+      "snapshot_bytes": 264
+    },
+    {
+      "m": 15,
+      "domain_anchor_ms": 23.84,
+      "verify_ms": 0.009,
+      "sort_ms": 0.006,
+      "global_build_ms": 0.014,
+      "snapshot_ms": 0.058,
+      "total_ms": 23.93,
+      "snapshot_bytes": 315
+    },
+    {
+      "m": 20,
+      "domain_anchor_ms": 31.7,
+      "verify_ms": 0.013,
+      "sort_ms": 0.007,
+      "global_build_ms": 0.02,
+      "snapshot_ms": 0.029,
+      "total_ms": 31.77,
+      "snapshot_bytes": 365
+    }
+  ]
+}

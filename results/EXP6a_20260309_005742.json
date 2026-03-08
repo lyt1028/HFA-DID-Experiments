@@ -1,0 +1,53 @@
+{
+  "experiment": "Commitment Invariance Verification",
+  "params": {
+    "num_credentials": 200,
+    "update_counts": [
+      10,
+      50,
+      100
+    ],
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "K": 10,
+      "invariant_pass": 10,
+      "invariant_rate": "100.0%",
+      "collision_pass": 10,
+      "collision_rate": "100.0%",
+      "chain_consistency": [
+        "10/10"
+      ],
+      "chain_query_avg_ms": 2.62
+    },
+    {
+      "K": 50,
+      "invariant_pass": 50,
+      "invariant_rate": "100.0%",
+      "collision_pass": 50,
+      "collision_rate": "100.0%",
+      "chain_consistency": [
+        "50/50"
+      ],
+      "chain_query_avg_ms": 2.67
+    },
+    {
+      "K": 100,
+      "invariant_pass": 100,
+      "invariant_rate": "100.0%",
+      "collision_pass": 100,
+      "collision_rate": "100.0%",
+      "chain_consistency": [
+        "100/100"
+      ],
+      "chain_query_avg_ms": 2.67
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "experiment": "Domain Scale vs GCL Aggregation",
+  "params": {
+    "domain_counts": [
+      2,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20
+    ],
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "m": 2,
+      "domain_anchor_ms": 4.86,
+      "verify_ms": 0.003,
+      "sort_ms": 0.004,
+      "global_build_ms": 0.008,
+      "snapshot_ms": 0.024,
+      "offchain_total_ms": 4.89,
+      "chain_domain_anchor_ms": 1012.3,
+      "chain_global_anchor_ms": 1011.1,
+      "chain_query_ms": 2.57,
+      "total_with_chain_ms": 2028.3,
+      "snapshot_bytes": 201
+    },
+    {
+      "m": 4,
+      "domain_anchor_ms": 8.69,
+      "verify_ms": 0.003,
+      "sort_ms": 0.004,
+      "global_build_ms": 0.008,
+      "snapshot_ms": 0.021,
+      "offchain_total_ms": 8.73,
+      "chain_domain_anchor_ms": 1414.1,
+      "chain_global_anchor_ms": 1011.6,
+      "chain_query_ms": 2.54,
+      "total_with_chain_ms": 2434.4,
+      "snapshot_bytes": 218
+    },
+    {
+      "m": 6,
+      "domain_anchor_ms": 12.81,
+      "verify_ms": 0.006,
+      "sort_ms": 0.005,
+      "global_build_ms": 0.013,
+      "snapshot_ms": 0.024,
+      "offchain_total_ms": 12.85,
+      "chain_domain_anchor_ms": 1013.3,
+      "chain_global_anchor_ms": 1012.5,
+      "chain_query_ms": 2.66,
+      "total_with_chain_ms": 2038.6,
+      "snapshot_bytes": 236
+    },
+    {
+      "m": 8,
+      "domain_anchor_ms": 16.97,
+      "verify_ms": 0.006,
+      "sort_ms": 0.005,
+      "global_build_ms": 0.013,
+      "snapshot_ms": 0.023,
+      "offchain_total_ms": 17.01,
+      "chain_domain_anchor_ms": 1013.8,
+      "chain_global_anchor_ms": 1011.3,
+      "chain_query_ms": 2.61,
+      "total_with_chain_ms": 2042.1,
+      "snapshot_bytes": 255
+    },
+    {
+      "m": 10,
+      "domain_anchor_ms": 20.64,
+      "verify_ms": 0.007,
+      "sort_ms": 0.006,
+      "global_build_ms": 0.018,
+      "snapshot_ms": 0.023,
+      "offchain_total_ms": 20.69,
+      "chain_domain_anchor_ms": 1016.1,
+      "chain_global_anchor_ms": 1011.2,
+      "chain_query_ms": 2.51,
+      "total_with_chain_ms": 2048.0,
+      "snapshot_bytes": 273
+    },
+    {
+      "m": 15,
+      "domain_anchor_ms": 30.73,
+      "verify_ms": 0.01,
+      "sort_ms": 0.007,
+      "global_build_ms": 0.024,
+      "snapshot_ms": 0.025,
+      "offchain_total_ms": 30.79,
+      "chain_domain_anchor_ms": 1014.6,
+      "chain_global_anchor_ms": 1011.7,
+      "chain_query_ms": 2.61,
+      "total_with_chain_ms": 2057.1,
+      "snapshot_bytes": 324
+    },
+    {
+      "m": 20,
+      "domain_anchor_ms": 40.38,
+      "verify_ms": 0.013,
+      "sort_ms": 0.009,
+      "global_build_ms": 0.03,
+      "snapshot_ms": 0.028,
+      "offchain_total_ms": 40.46,
+      "chain_domain_anchor_ms": 1015.3,
+      "chain_global_anchor_ms": 1011.3,
+      "chain_query_ms": 2.57,
+      "total_with_chain_ms": 2067.0,
+      "snapshot_bytes": 374
+    }
+  ]
+}

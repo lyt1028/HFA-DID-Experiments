@@ -1,0 +1,137 @@
+{
+  "experiment": "Dynamic vs Static Committee Recovery",
+  "params": {
+    "total_epochs": 12,
+    "total_nodes": 20
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "dynamic": [
+    {
+      "epoch": 1,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 2,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 3,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 4,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 5,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 6,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 7,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 8,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 9,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.9
+    },
+    {
+      "epoch": 10,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 11,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 12,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    }
+  ],
+  "static": [
+    {
+      "epoch": 1,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 2,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 3,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 4,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 5,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 6,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 7,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    },
+    {
+      "epoch": 8,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 9,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 10,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 11,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.7
+    },
+    {
+      "epoch": 12,
+      "success_rate": 100.0,
+      "avg_latency_ms": 43.8
+    }
+  ]
+}

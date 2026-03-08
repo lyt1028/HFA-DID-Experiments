@@ -1,0 +1,100 @@
+{
+  "experiment": "Single Update/Revoke Overhead",
+  "params": {
+    "committee_sizes": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 30
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "breakdown": [
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Update",
+      "T_request_verify": 0.103,
+      "T_committee_vote": 0.012,
+      "T_chameleon_forge": 0.561,
+      "T_sign_record": 859.267,
+      "T_total": 859.943
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Revoke",
+      "T_request_verify": 0.104,
+      "T_committee_vote": 0.016,
+      "T_chameleon_forge": 0.512,
+      "T_sign_record": 856.279,
+      "T_total": 856.911
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "op": "Update",
+      "T_request_verify": 0.105,
+      "T_committee_vote": 0.014,
+      "T_chameleon_forge": 0.525,
+      "T_sign_record": 1261.613,
+      "T_total": 1262.257
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "op": "Revoke",
+      "T_request_verify": 0.113,
+      "T_committee_vote": 0.015,
+      "T_chameleon_forge": 0.545,
+      "T_sign_record": 1215.551,
+      "T_total": 1216.225
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "op": "Update",
+      "T_request_verify": 0.114,
+      "T_committee_vote": 0.015,
+      "T_chameleon_forge": 0.583,
+      "T_sign_record": 1641.279,
+      "T_total": 1641.992
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "op": "Revoke",
+      "T_request_verify": 0.12,
+      "T_committee_vote": 0.018,
+      "T_chameleon_forge": 0.595,
+      "T_sign_record": 1689.838,
+      "T_total": 1690.57
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "op": "Update",
+      "T_request_verify": 0.109,
+      "T_committee_vote": 0.014,
+      "T_chameleon_forge": 0.567,
+      "T_sign_record": 1866.778,
+      "T_total": 1867.468
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "op": "Revoke",
+      "T_request_verify": 0.044,
+      "T_committee_vote": 0.007,
+      "T_chameleon_forge": 0.213,
+      "T_sign_record": 690.535,
+      "T_total": 690.798
+    }
+  ]
+}

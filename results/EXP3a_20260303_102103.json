@@ -1,0 +1,80 @@
+{
+  "experiment": "Credential Scale vs Anchoring Overhead",
+  "params": {
+    "credential_counts": [
+      100,
+      500,
+      1000,
+      5000,
+      10000
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "n_vc": 100,
+      "leaf_hash_ms": 0.3,
+      "sort_ms": 0.01,
+      "build_ms": 0.14,
+      "chain_anchor_ms": 1160.5,
+      "chain_query_ms": 2.63,
+      "offchain_total_ms": 0.46,
+      "total_with_chain_ms": 1161.0,
+      "tree_depth": 7,
+      "storage_bytes": 186
+    },
+    {
+      "n_vc": 500,
+      "leaf_hash_ms": 1.13,
+      "sort_ms": 0.07,
+      "build_ms": 0.63,
+      "chain_anchor_ms": 1010.8,
+      "chain_query_ms": 2.6,
+      "offchain_total_ms": 1.82,
+      "total_with_chain_ms": 1012.6,
+      "tree_depth": 9,
+      "storage_bytes": 187
+    },
+    {
+      "n_vc": 1000,
+      "leaf_hash_ms": 2.2,
+      "sort_ms": 0.14,
+      "build_ms": 1.02,
+      "chain_anchor_ms": 1011.2,
+      "chain_query_ms": 2.62,
+      "offchain_total_ms": 3.36,
+      "total_with_chain_ms": 1014.5,
+      "tree_depth": 10,
+      "storage_bytes": 190
+    },
+    {
+      "n_vc": 5000,
+      "leaf_hash_ms": 11.41,
+      "sort_ms": 0.87,
+      "build_ms": 5.14,
+      "chain_anchor_ms": 1011.2,
+      "chain_query_ms": 2.79,
+      "offchain_total_ms": 17.42,
+      "total_with_chain_ms": 1028.6,
+      "tree_depth": 13,
+      "storage_bytes": 190
+    },
+    {
+      "n_vc": 10000,
+      "leaf_hash_ms": 22.12,
+      "sort_ms": 1.94,
+      "build_ms": 10.45,
+      "chain_anchor_ms": 1010.7,
+      "chain_query_ms": 2.62,
+      "offchain_total_ms": 34.51,
+      "total_with_chain_ms": 1045.2,
+      "tree_depth": 14,
+      "storage_bytes": 190
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "experiment": "Cross-Domain Verification vs Domain Scale",
+  "params": {
+    "domain_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "credentials_per_domain": 1000,
+    "use_chain": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "m": 2,
+      "chain_domain_query_ms": 1.856,
+      "chain_global_query_ms": 1.777,
+      "local_merkle_ms": 0.0315,
+      "global_merkle_ms": 0.0033,
+      "bls_verify_ms": 0.0362,
+      "rtl_endorse_ms": 0.0149,
+      "total_ms": 3.72,
+      "success_rate": 100.0
+    },
+    {
+      "m": 4,
+      "chain_domain_query_ms": 1.867,
+      "chain_global_query_ms": 1.775,
+      "local_merkle_ms": 0.0341,
+      "global_merkle_ms": 0.0047,
+      "bls_verify_ms": 0.0362,
+      "rtl_endorse_ms": 0.015,
+      "total_ms": 3.732,
+      "success_rate": 100.0
+    },
+    {
+      "m": 6,
+      "chain_domain_query_ms": 1.87,
+      "chain_global_query_ms": 1.776,
+      "local_merkle_ms": 0.0343,
+      "global_merkle_ms": 0.0061,
+      "bls_verify_ms": 0.0357,
+      "rtl_endorse_ms": 0.0152,
+      "total_ms": 3.737,
+      "success_rate": 100.0
+    },
+    {
+      "m": 8,
+      "chain_domain_query_ms": 1.88,
+      "chain_global_query_ms": 1.766,
+      "local_merkle_ms": 0.0357,
+      "global_merkle_ms": 0.006,
+      "bls_verify_ms": 0.0367,
+      "rtl_endorse_ms": 0.0152,
+      "total_ms": 3.74,
+      "success_rate": 100.0
+    },
+    {
+      "m": 10,
+      "chain_domain_query_ms": 1.918,
+      "chain_global_query_ms": 1.8,
+      "local_merkle_ms": 0.0363,
+      "global_merkle_ms": 0.0074,
+      "bls_verify_ms": 0.0362,
+      "rtl_endorse_ms": 0.0155,
+      "total_ms": 3.813,
+      "success_rate": 100.0
+    }
+  ]
+}

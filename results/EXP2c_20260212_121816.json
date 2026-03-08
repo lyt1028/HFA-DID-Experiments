@@ -1,0 +1,60 @@
+{
+  "experiment": "HFA-DID vs Cross-Chain Comparison",
+  "params": {
+    "domain_counts": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "results": [
+    {
+      "m": 2,
+      "hfa_avg_ms": 2.6,
+      "hfa_p95_ms": 3.02,
+      "cc_avg_ms": 11.54,
+      "cc_p95_ms": 13.44,
+      "speedup": 4.4
+    },
+    {
+      "m": 4,
+      "hfa_avg_ms": 2.54,
+      "hfa_p95_ms": 3.01,
+      "cc_avg_ms": 14.49,
+      "cc_p95_ms": 16.98,
+      "speedup": 5.7
+    },
+    {
+      "m": 6,
+      "hfa_avg_ms": 2.56,
+      "hfa_p95_ms": 2.99,
+      "cc_avg_ms": 17.55,
+      "cc_p95_ms": 20.77,
+      "speedup": 6.9
+    },
+    {
+      "m": 8,
+      "hfa_avg_ms": 2.58,
+      "hfa_p95_ms": 3.01,
+      "cc_avg_ms": 20.33,
+      "cc_p95_ms": 24.09,
+      "speedup": 7.9
+    },
+    {
+      "m": 10,
+      "hfa_avg_ms": 2.52,
+      "hfa_p95_ms": 2.98,
+      "cc_avg_ms": 23.32,
+      "cc_p95_ms": 28.67,
+      "speedup": 9.3
+    }
+  ]
+}
