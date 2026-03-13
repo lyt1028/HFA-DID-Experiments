@@ -1,0 +1,107 @@
+# HFA-DID 半真实网络仿真拓扑
+# 用途: 在单机上用 Docker 容器模拟多域跨域验证场景
+# 配合 tc netem 注入真实网络延迟/抖动/丢包
+#
+# 拓扑:
+#   verifier (172.20.0.100)  ── WAN ──>  gcl (172.20.0.20)
+#   gcl      (172.20.0.20)   ── LAN ──>  rtl (172.20.0.10)
+#   gcl      (172.20.0.20)   ── MAN ──>  dcl-a (172.20.0.30)
+#   gcl      (172.20.0.20)   ── MAN ──>  dcl-b (172.20.0.40)
+#   gcl      (172.20.0.20)   ── WAN ──>  dcl-c (172.20.0.50)
+#
+# 启动: docker compose up -d && bash setup_network.sh
+
+version: '3.8'
+
+services:
+  rtl:
+    build: .
+    container_name: hfa-rtl
+    hostname: rtl
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.10
+    volumes:
+      - ../:/app
+    working_dir: /app
+    cap_add:
+      - NET_ADMIN          # tc netem 需要
+    command: ["python", "-m", "docker.node_service", "--role", "rtl", "--port", "5000"]
+
+  gcl:
+    build: .
+    container_name: hfa-gcl
+    hostname: gcl
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.20
+    volumes:
+      - ../:/app
+    working_dir: /app
+    cap_add:
+      - NET_ADMIN
+    command: ["python", "-m", "docker.node_service", "--role", "gcl", "--port", "5000"]
+
+  dcl-a:
+    build: .
+    container_name: hfa-dcl-a
+    hostname: dcl-a
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.30
+    volumes:
+      - ../:/app
+    working_dir: /app
+    cap_add:
+      - NET_ADMIN
+    command: ["python", "-m", "docker.node_service", "--role", "dcl", "--domain", "DCL_A", "--port", "5000"]
+
+  dcl-b:
+    build: .
+    container_name: hfa-dcl-b
+    hostname: dcl-b
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.40
+    volumes:
+      - ../:/app
+    working_dir: /app
+    cap_add:
+      - NET_ADMIN
+    command: ["python", "-m", "docker.node_service", "--role", "dcl", "--domain", "DCL_B", "--port", "5000"]
+
+  dcl-c:
+    build: .
+    container_name: hfa-dcl-c
+    hostname: dcl-c
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.50
+    volumes:
+      - ../:/app
+    working_dir: /app
+    cap_add:
+      - NET_ADMIN
+    command: ["python", "-m", "docker.node_service", "--role", "dcl", "--domain", "DCL_C", "--port", "5000"]
+
+  verifier:
+    build: .
+    container_name: hfa-verifier
+    hostname: verifier
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.100
+    volumes:
+      - ../:/app
+    working_dir: /app
+    cap_add:
+      - NET_ADMIN
+    # 验证方容器保持运行, 实验脚本手动 docker exec 进入执行
+    command: ["sleep", "infinity"]
+
+networks:
+  hfa-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
