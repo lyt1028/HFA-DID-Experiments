@@ -114,7 +114,7 @@ def hfadid_cross_domain_verify(domain_id, cred_idx):
     t0 = time.perf_counter()
     # 验证域根在全域树中的包含性
     domain_root = bytes.fromhex(domain_proof_data['domain_root'])
-    global_proof = [bytes.fromhex(p) for p in domain_proof_data['proof']]
+    global_proof = [(bytes.fromhex(p['hash']), p['dir']) for p in domain_proof_data['proof']]
     global_root = bytes.fromhex(domain_proof_data['global_root'])
     global_valid = MerkleTree.verify_proof(domain_root, global_proof, global_root)
     # 验证快照根与全域根一致
@@ -167,7 +167,7 @@ def didcross_cross_domain_verify(domain_id, cred_idx):
     # Step 5: 本地 SPV 证明验证
     t0 = time.perf_counter()
     leaf = bytes.fromhex(proof_data['leaf'])
-    proof = [bytes.fromhex(p) for p in proof_data['proof']]
+    proof = [(bytes.fromhex(p['hash']), p['dir']) for p in proof_data['proof']]
     root = bytes.fromhex(proof_data['root'])
     valid = MerkleTree.verify_proof(leaf, proof, root)
     # 模拟深层 SPV 重建开销 (多次哈希)
