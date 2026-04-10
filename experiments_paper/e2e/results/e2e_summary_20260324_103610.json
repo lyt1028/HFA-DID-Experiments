@@ -1,0 +1,43 @@
+{
+  "summary": [
+    {
+      "m": 15,
+      "hfa_avg_ms": 9.1,
+      "hfa_p50_ms": 9.2,
+      "hfa_net_ms": 6.5,
+      "hfa_merkle_ms": 0.014,
+      "hfa_rcp_bls_ms": 1.33,
+      "hfa_cred_bls_ms": 1.31,
+      "relay_avg_ms": 136.4,
+      "speedup": 14.9
+    },
+    {
+      "m": 20,
+      "hfa_avg_ms": 9.2,
+      "hfa_p50_ms": 9.1,
+      "hfa_net_ms": 6.5,
+      "hfa_merkle_ms": 0.013,
+      "hfa_rcp_bls_ms": 1.33,
+      "hfa_cred_bls_ms": 1.32,
+      "relay_avg_ms": 179.4,
+      "speedup": 19.5
+    },
+    {
+      "m": 30,
+      "hfa_avg_ms": 8.9,
+      "hfa_p50_ms": 9.0,
+      "hfa_net_ms": 6.3,
+      "hfa_merkle_ms": 0.014,
+      "hfa_rcp_bls_ms": 1.33,
+      "hfa_cred_bls_ms": 1.32,
+      "relay_avg_ms": 267.1,
+      "speedup": 29.9
+    }
+  ],
+  "params": {
+    "n_trials": 10,
+    "n_creds": 32,
+    "committee_n": 10,
+    "committee_t": 7
+  }
+}

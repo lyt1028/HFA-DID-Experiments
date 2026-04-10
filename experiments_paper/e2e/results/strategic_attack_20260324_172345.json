@@ -1,0 +1,68 @@
+{
+  "results": [
+    {
+      "r": 1,
+      "threshold_only_avg": 11,
+      "threshold_only_safe_rate": "0/20",
+      "naive_avg": 50,
+      "naive_safe_rate": "20/20",
+      "strategic_avg": 11,
+      "strategic_safe_rate": "0/20"
+    },
+    {
+      "r": 2,
+      "threshold_only_avg": 6,
+      "threshold_only_safe_rate": "0/20",
+      "naive_avg": 50,
+      "naive_safe_rate": "20/20",
+      "strategic_avg": 6,
+      "strategic_safe_rate": "0/20"
+    },
+    {
+      "r": 3,
+      "threshold_only_avg": 4,
+      "threshold_only_safe_rate": "0/20",
+      "naive_avg": 50,
+      "naive_safe_rate": "20/20",
+      "strategic_avg": 4,
+      "strategic_safe_rate": "0/20"
+    },
+    {
+      "r": 4,
+      "threshold_only_avg": 3,
+      "threshold_only_safe_rate": "0/20",
+      "naive_avg": 3,
+      "naive_safe_rate": "0/20",
+      "strategic_avg": 3,
+      "strategic_safe_rate": "0/20"
+    },
+    {
+      "r": 5,
+      "threshold_only_avg": 3,
+      "threshold_only_safe_rate": "0/20",
+      "naive_avg": 3,
+      "naive_safe_rate": "0/20",
+      "strategic_avg": 3,
+      "strategic_safe_rate": "0/20"
+    },
+    {
+      "r": 6,
+      "threshold_only_avg": 2,
+      "threshold_only_safe_rate": "0/20",
+      "naive_avg": 2,
+      "naive_safe_rate": "0/20",
+      "strategic_avg": 2,
+      "strategic_safe_rate": "0/20"
+    }
+  ],
+  "params": {
+    "n": 20,
+    "delta": 0.8,
+    "theta": 0.6,
+    "k_star": 3,
+    "t_min": 11,
+    "r_max_theory": 3.67,
+    "n_repeats": 20,
+    "n_epochs": 50
+  }
+}

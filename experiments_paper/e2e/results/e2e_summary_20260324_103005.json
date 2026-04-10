@@ -1,0 +1,32 @@
+{
+  "summary": [
+    {
+      "m": 2,
+      "hfa_avg_ms": 8.6,
+      "hfa_p50_ms": 8.6,
+      "hfa_net_ms": 5.9,
+      "hfa_merkle_ms": 0.013,
+      "hfa_rcp_bls_ms": 1.34,
+      "hfa_cred_bls_ms": 1.31,
+      "relay_avg_ms": 17.1,
+      "speedup": 2.0
+    },
+    {
+      "m": 5,
+      "hfa_avg_ms": 9.0,
+      "hfa_p50_ms": 9.0,
+      "hfa_net_ms": 6.3,
+      "hfa_merkle_ms": 0.014,
+      "hfa_rcp_bls_ms": 1.34,
+      "hfa_cred_bls_ms": 1.31,
+      "relay_avg_ms": 45.4,
+      "speedup": 5.0
+    }
+  ],
+  "params": {
+    "n_trials": 5,
+    "n_creds": 32,
+    "committee_n": 10,
+    "committee_t": 7
+  }
+}

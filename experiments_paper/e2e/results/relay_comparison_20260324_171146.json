@@ -1,0 +1,29 @@
+[
+  {
+    "m": 2,
+    "hfa_avg": 8.9,
+    "hfa_std": 1.3,
+    "serial_avg": 10.7,
+    "serial_std": 0.3,
+    "parallel_avg": 6.5,
+    "parallel_std": 0.1
+  },
+  {
+    "m": 5,
+    "hfa_avg": 8.7,
+    "hfa_std": 0.4,
+    "serial_avg": 28.8,
+    "serial_std": 0.7,
+    "parallel_avg": 11.1,
+    "parallel_std": 0.0
+  },
+  {
+    "m": 10,
+    "hfa_avg": 9.7,
+    "hfa_std": 1.0,
+    "serial_avg": 56.5,
+    "serial_std": 0.6,
+    "parallel_avg": 17.6,
+    "parallel_std": 0.1
+  }
+]

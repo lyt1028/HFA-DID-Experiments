@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "r": 1,
+      "threshold_only_avg": 11,
+      "threshold_only_safe_rate": "0/5",
+      "naive_avg": 50,
+      "naive_safe_rate": "5/5",
+      "strategic_avg": 11,
+      "strategic_safe_rate": "0/5"
+    },
+    {
+      "r": 3,
+      "threshold_only_avg": 4,
+      "threshold_only_safe_rate": "0/5",
+      "naive_avg": 50,
+      "naive_safe_rate": "5/5",
+      "strategic_avg": 4,
+      "strategic_safe_rate": "0/5"
+    },
+    {
+      "r": 4,
+      "threshold_only_avg": 3,
+      "threshold_only_safe_rate": "0/5",
+      "naive_avg": 3,
+      "naive_safe_rate": "0/5",
+      "strategic_avg": 3,
+      "strategic_safe_rate": "0/5"
+    },
+    {
+      "r": 6,
+      "threshold_only_avg": 2,
+      "threshold_only_safe_rate": "0/5",
+      "naive_avg": 2,
+      "naive_safe_rate": "0/5",
+      "strategic_avg": 2,
+      "strategic_safe_rate": "0/5"
+    }
+  ],
+  "params": {
+    "n": 20,
+    "delta": 0.8,
+    "theta": 0.6,
+    "k_star": 3,
+    "t_min": 11,
+    "r_max_theory": 3.67,
+    "n_repeats": 5,
+    "n_epochs": 50
+  }
+}

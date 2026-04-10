@@ -1,0 +1,56 @@
+[
+  {
+    "m": 2,
+    "hfa_avg": 8.6,
+    "hfa_std": 0.9,
+    "serial_avg": 10.6,
+    "serial_std": 0.3,
+    "parallel_avg": 6.6,
+    "parallel_std": 0.1
+  },
+  {
+    "m": 5,
+    "hfa_avg": 8.8,
+    "hfa_std": 0.6,
+    "serial_avg": 28.1,
+    "serial_std": 0.5,
+    "parallel_avg": 10.9,
+    "parallel_std": 0.2
+  },
+  {
+    "m": 10,
+    "hfa_avg": 9.3,
+    "hfa_std": 0.7,
+    "serial_avg": 56.3,
+    "serial_std": 1.4,
+    "parallel_avg": 17.5,
+    "parallel_std": 0.1
+  },
+  {
+    "m": 15,
+    "hfa_avg": 9.2,
+    "hfa_std": 0.4,
+    "serial_avg": 83.9,
+    "serial_std": 1.6,
+    "parallel_avg": 24.1,
+    "parallel_std": 0.3
+  },
+  {
+    "m": 20,
+    "hfa_avg": 9.6,
+    "hfa_std": 0.7,
+    "serial_avg": 112.3,
+    "serial_std": 1.5,
+    "parallel_avg": 30.9,
+    "parallel_std": 0.6
+  },
+  {
+    "m": 30,
+    "hfa_avg": 9.7,
+    "hfa_std": 0.7,
+    "serial_avg": 166.1,
+    "serial_std": 2.2,
+    "parallel_avg": 44.2,
+    "parallel_std": 0.6
+  }
+]
