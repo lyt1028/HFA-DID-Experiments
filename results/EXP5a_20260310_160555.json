@@ -1,0 +1,126 @@
+{
+  "experiment": "Single Update/Revoke Overhead",
+  "params": {
+    "committee_sizes": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "num_trials": 30,
+    "use_chain": true,
+    "parallel_bls": true
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "breakdown": [
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Update",
+      "T_request_verify": 2.957,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 13.199,
+      "T_sign_record": 107.293,
+      "T_offchain_total": 123.453,
+      "T_chain_register": 1037.0,
+      "T_chain_record": 1011.9,
+      "T_total_with_chain": 1135.3
+    },
+    {
+      "n": 4,
+      "t": 3,
+      "op": "Revoke",
+      "T_request_verify": 2.928,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 13.11,
+      "T_sign_record": 107.263,
+      "T_offchain_total": 123.306,
+      "T_chain_register": 1011.1,
+      "T_chain_record": 1011.7,
+      "T_total_with_chain": 1135.0
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "op": "Update",
+      "T_request_verify": 2.788,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 12.466,
+      "T_sign_record": 141.718,
+      "T_offchain_total": 156.976,
+      "T_chain_register": 1011.2,
+      "T_chain_record": 1011.9,
+      "T_total_with_chain": 1168.9
+    },
+    {
+      "n": 6,
+      "t": 4,
+      "op": "Revoke",
+      "T_request_verify": 2.765,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 12.314,
+      "T_sign_record": 141.645,
+      "T_offchain_total": 156.729,
+      "T_chain_register": 1010.9,
+      "T_chain_record": 1012.2,
+      "T_total_with_chain": 1168.9
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "op": "Update",
+      "T_request_verify": 2.908,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 12.949,
+      "T_sign_record": 144.499,
+      "T_offchain_total": 160.36,
+      "T_chain_register": 1011.0,
+      "T_chain_record": 1012.2,
+      "T_total_with_chain": 1172.6
+    },
+    {
+      "n": 8,
+      "t": 5,
+      "op": "Revoke",
+      "T_request_verify": 2.917,
+      "T_committee_vote": 0.006,
+      "T_chameleon_forge": 12.986,
+      "T_sign_record": 144.999,
+      "T_offchain_total": 160.908,
+      "T_chain_register": 1011.0,
+      "T_chain_record": 1011.7,
+      "T_total_with_chain": 1172.6
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "op": "Update",
+      "T_request_verify": 2.836,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 12.754,
+      "T_sign_record": 183.27,
+      "T_offchain_total": 198.866,
+      "T_chain_register": 1011.3,
+      "T_chain_record": 1011.6,
+      "T_total_with_chain": 1210.4
+    },
+    {
+      "n": 10,
+      "t": 7,
+      "op": "Revoke",
+      "T_request_verify": 2.841,
+      "T_committee_vote": 0.005,
+      "T_chameleon_forge": 12.768,
+      "T_sign_record": 181.369,
+      "T_offchain_total": 196.983,
+      "T_chain_register": 1011.1,
+      "T_chain_record": 1011.9,
+      "T_total_with_chain": 1208.9
+    }
+  ]
+}

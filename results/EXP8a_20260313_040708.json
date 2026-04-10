@@ -1,0 +1,140 @@
+{
+  "experiment": "Network Simulation: HFA-DID vs DIDCross",
+  "params": {
+    "num_trials": 100,
+    "n_credentials": 1000,
+    "domains": [
+      "DCL_A",
+      "DCL_B",
+      "DCL_C"
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "rtt_baseline": {
+    "RTL": {
+      "avg_ms": 180.47,
+      "p95_ms": 229.17
+    },
+    "GCL": {
+      "avg_ms": 216.43,
+      "p95_ms": 298.18
+    },
+    "DCL_A": {
+      "avg_ms": 322.99,
+      "p95_ms": 1232.81
+    },
+    "DCL_B": {
+      "avg_ms": 240.47,
+      "p95_ms": 293.58
+    },
+    "DCL_C": {
+      "avg_ms": 311.25,
+      "p95_ms": 356.73
+    }
+  },
+  "hfa_did": {
+    "total_stats": {
+      "avg": 1022.67,
+      "p50": 941.53,
+      "p95": 1883.09,
+      "std": 278.26
+    },
+    "breakdown": {
+      "gcl_snapshot": {
+        "avg": 286.72,
+        "p50": 246.95,
+        "p95": 662.28,
+        "std": 186.9
+      },
+      "gcl_domain_proof": {
+        "avg": 265.26,
+        "p50": 249.42,
+        "p95": 311.28,
+        "std": 118.22
+      },
+      "gcl_bitmap": {
+        "avg": 271.56,
+        "p50": 246.55,
+        "p95": 362.31,
+        "std": 153.66
+      },
+      "rtl_endorse": {
+        "avg": 199.1,
+        "p50": 188.48,
+        "p95": 242.48,
+        "std": 106.0
+      },
+      "local_verify": {
+        "avg": 0.03,
+        "p50": 0.03,
+        "p95": 0.03,
+        "std": 0.0
+      },
+      "bitmap_check": {
+        "avg": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "std": 0.0
+      },
+      "total": {
+        "avg": 1022.67,
+        "p50": 941.53,
+        "p95": 1883.09,
+        "std": 278.26
+      }
+    },
+    "success_rate": 1.0
+  },
+  "didcross": {
+    "total_stats": {
+      "avg": 1136.65,
+      "p50": 1064.93,
+      "p95": 1977.14,
+      "std": 308.79
+    },
+    "breakdown": {
+      "source_merkle_proof": {
+        "avg": 286.81,
+        "p50": 253.22,
+        "p95": 383.86,
+        "std": 156.69
+      },
+      "source_block_header": {
+        "avg": 296.9,
+        "p50": 240.67,
+        "p95": 621.02,
+        "std": 183.17
+      },
+      "relay_header_sync": {
+        "avg": 255.28,
+        "p50": 246.81,
+        "p95": 319.14,
+        "std": 71.13
+      },
+      "consensus_check": {
+        "avg": 297.57,
+        "p50": 260.06,
+        "p95": 655.35,
+        "std": 170.3
+      },
+      "local_spv_verify": {
+        "avg": 0.08,
+        "p50": 0.08,
+        "p95": 0.09,
+        "std": 0.01
+      },
+      "total": {
+        "avg": 1136.65,
+        "p50": 1064.93,
+        "p95": 1977.14,
+        "std": 308.79
+      }
+    },
+    "success_rate": 1.0
+  }
+}

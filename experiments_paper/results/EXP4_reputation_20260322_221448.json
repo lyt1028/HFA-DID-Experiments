@@ -1,0 +1,137 @@
+[
+  {
+    "epoch": 1,
+    "perturbation": "none",
+    "avg_reputation_committee": 0.7705,
+    "avg_reputation_all": 0.7327,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 60.0
+  },
+  {
+    "epoch": 2,
+    "perturbation": "none",
+    "avg_reputation_committee": 0.8476,
+    "avg_reputation_all": 0.8108,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 64.0
+  },
+  {
+    "epoch": 3,
+    "perturbation": "none",
+    "avg_reputation_committee": 0.8795,
+    "avg_reputation_all": 0.8503,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 56.0
+  },
+  {
+    "epoch": 4,
+    "perturbation": "offline=10%",
+    "avg_reputation_committee": 0.892,
+    "avg_reputation_all": 0.8048,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 60.0
+  },
+  {
+    "epoch": 5,
+    "perturbation": "offline=10%+delay=5%",
+    "avg_reputation_committee": 0.9238,
+    "avg_reputation_all": 0.8287,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 76.0
+  },
+  {
+    "epoch": 6,
+    "perturbation": "offline=15%+delay=5%",
+    "avg_reputation_committee": 0.9339,
+    "avg_reputation_all": 0.8094,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 68.0
+  },
+  {
+    "epoch": 7,
+    "perturbation": "malicious=8%",
+    "avg_reputation_committee": 0.9478,
+    "avg_reputation_all": 0.8701,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 84.0
+  },
+  {
+    "epoch": 8,
+    "perturbation": "offline=8%+malicious=12%",
+    "avg_reputation_committee": 0.9524,
+    "avg_reputation_all": 0.8277,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 80.0
+  },
+  {
+    "epoch": 9,
+    "perturbation": "offline=10%+malicious=15%",
+    "avg_reputation_committee": 0.9498,
+    "avg_reputation_all": 0.7908,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 76.0
+  },
+  {
+    "epoch": 10,
+    "perturbation": "offline=5%+malicious=10%",
+    "avg_reputation_committee": 0.9513,
+    "avg_reputation_all": 0.8339,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 84.0
+  },
+  {
+    "epoch": 11,
+    "perturbation": "malicious=5%",
+    "avg_reputation_committee": 0.9499,
+    "avg_reputation_all": 0.8924,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 96.0
+  },
+  {
+    "epoch": 12,
+    "perturbation": "none",
+    "avg_reputation_committee": 0.913,
+    "avg_reputation_all": 0.8677,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 56.0
+  },
+  {
+    "epoch": 13,
+    "perturbation": "none",
+    "avg_reputation_committee": 0.9015,
+    "avg_reputation_all": 0.8594,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 64.0
+  },
+  {
+    "epoch": 14,
+    "perturbation": "none",
+    "avg_reputation_committee": 0.8967,
+    "avg_reputation_all": 0.866,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 64.0
+  },
+  {
+    "epoch": 15,
+    "perturbation": "none",
+    "avg_reputation_committee": 0.8935,
+    "avg_reputation_all": 0.8602,
+    "high_rep_ratio": 100.0,
+    "success_rate": 100.0,
+    "retention_rate": 56.0
+  }
+]

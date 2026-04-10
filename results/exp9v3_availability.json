@@ -1,0 +1,62 @@
+{
+  "S0: 全部正常": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 721.5323903830722,
+    "hfa_latency_std": 26.308535743572058,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 775.2802499802783,
+    "relay_latency_std": 121.44819434128806
+  },
+  "S1: 1域高延迟": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 781.4251324161887,
+    "hfa_latency_std": 120.24960543210203,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 3302.5434160255827,
+    "relay_latency_std": 312.75883196201517
+  },
+  "S2: 1离线+1间歇": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 771.5631351922639,
+    "hfa_latency_std": 98.97781995163588,
+    "relay_success_mean": 56.0,
+    "relay_success_std": 8.0,
+    "relay_latency_mean": 21044.226032216102,
+    "relay_latency_std": 2768.113338430931
+  },
+  "S3: 2离线+1高延迟": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 909.1898237704299,
+    "hfa_latency_std": 401.9635837011303,
+    "relay_success_mean": 20.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 25675.31648038421,
+    "relay_latency_std": 916.8237947786474
+  },
+  "S4: 3离线+1间歇": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 929.0328941773623,
+    "hfa_latency_std": 403.6228564123245,
+    "relay_success_mean": 0.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 31032.44117561262,
+    "relay_latency_std": 2.4832182677493706
+  },
+  "S5: 全部离线": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 922.5595887866803,
+    "hfa_latency_std": 407.84062552878805,
+    "relay_success_mean": 0.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 31032.27445081575,
+    "relay_latency_std": 1.9358893870352025
+  }
+}

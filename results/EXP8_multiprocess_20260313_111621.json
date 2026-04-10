@@ -1,0 +1,211 @@
+{
+  "exp8a_lan": {
+    "profile": "lan",
+    "profile_label": "LAN (~2ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 1.0,
+      "mean_ms": 9.03521680040285,
+      "p50_ms": 8.939639024902135,
+      "p95_ms": 10.416498681297526,
+      "p99_ms": 11.009857561439274
+    },
+    "didcross": {
+      "success_rate": 1.0,
+      "mean_ms": 8.169858790934086,
+      "p50_ms": 8.151206478942186,
+      "p95_ms": 9.09339202917181,
+      "p99_ms": 9.306363540235907
+    },
+    "speedup": 0.9
+  },
+  "exp8a_metro": {
+    "profile": "metro",
+    "profile_label": "Metro (~10ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 1.0,
+      "mean_ms": 27.694974993355572,
+      "p50_ms": 27.792391018010676,
+      "p95_ms": 29.966809158213437,
+      "p99_ms": 31.12298402702436
+    },
+    "didcross": {
+      "success_rate": 1.0,
+      "mean_ms": 38.156276918016374,
+      "p50_ms": 38.34270447259769,
+      "p95_ms": 41.661226871656254,
+      "p99_ms": 43.05943749845028
+    },
+    "speedup": 1.38
+  },
+  "exp8a_wan": {
+    "profile": "wan",
+    "profile_label": "WAN (~50ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 1.0,
+      "mean_ms": 107.26721292594448,
+      "p50_ms": 106.30196606507525,
+      "p95_ms": 118.09255838743411,
+      "p99_ms": 123.22493900428526
+    },
+    "didcross": {
+      "success_rate": 1.0,
+      "mean_ms": 146.3824462913908,
+      "p50_ms": 146.71803801320493,
+      "p95_ms": 168.17902885959484,
+      "p99_ms": 171.0342781606596
+    },
+    "speedup": 1.36
+  },
+  "exp8a_cross_region": {
+    "profile": "cross_region",
+    "profile_label": "Cross-Region (~150ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 1.0,
+      "mean_ms": 301.46837182575837,
+      "p50_ms": 297.8107645176351,
+      "p95_ms": 354.8036973050329,
+      "p99_ms": 381.5711721370462
+    },
+    "didcross": {
+      "success_rate": 1.0,
+      "mean_ms": 431.16761148674414,
+      "p50_ms": 433.3858900354244,
+      "p95_ms": 511.5387134195771,
+      "p99_ms": 531.615698285168
+    },
+    "speedup": 1.43
+  },
+  "exp8a_asymmetric": {
+    "profile": "asymmetric",
+    "profile_label": "Asymmetric (mixed)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 1.0,
+      "mean_ms": 118.50507203955203,
+      "p50_ms": 112.6391205471009,
+      "p95_ms": 166.14033284713514,
+      "p99_ms": 174.35314644826573
+    },
+    "didcross": {
+      "success_rate": 1.0,
+      "mean_ms": 191.31985099753365,
+      "p50_ms": 196.65184646146372,
+      "p95_ms": 268.0653653340414,
+      "p99_ms": 324.1774623398669
+    },
+    "speedup": 1.61
+  },
+  "exp8b_rtt_sweep": {
+    "lan": {
+      "label": "LAN (~2ms)",
+      "n_rounds": 30,
+      "mean_ms": 8.624501735903323,
+      "p50_ms": 8.46497353632003,
+      "p95_ms": 9.862695942865685,
+      "p99_ms": 10.11793508194387,
+      "phase_mean_ms": {
+        "dcl_proof": 2.5968628004193306,
+        "gcl_domain_proof": 3.4641628076011934,
+        "rtl_verify": 2.523756531688074,
+        "local_merkle_verify": 0.02557736588642001,
+        "local_domain_verify": 0.010756112169474363
+      }
+    },
+    "metro": {
+      "label": "Metro (~10ms)",
+      "n_rounds": 30,
+      "mean_ms": 27.32428986346349,
+      "p50_ms": 27.56338904146105,
+      "p95_ms": 29.658123006811365,
+      "p99_ms": 29.717085952870548,
+      "phase_mean_ms": {
+        "dcl_proof": 7.953007527006169,
+        "gcl_domain_proof": 11.695390338233361,
+        "rtl_verify": 7.633031307098766,
+        "local_merkle_verify": 0.02630619953076045,
+        "local_domain_verify": 0.012965081259608269
+      }
+    },
+    "wan": {
+      "label": "WAN (~50ms)",
+      "n_rounds": 30,
+      "mean_ms": 106.25170366450523,
+      "p50_ms": 106.33158555720001,
+      "p95_ms": 112.90234277839772,
+      "p99_ms": 114.84997995081358,
+      "phase_mean_ms": {
+        "dcl_proof": 22.077596769668162,
+        "gcl_domain_proof": 52.336453432993345,
+        "rtl_verify": 31.781631397704285,
+        "local_merkle_verify": 0.031171494629234076,
+        "local_domain_verify": 0.020566644767920177
+      }
+    },
+    "cross_region": {
+      "label": "Cross-Region (~150ms)",
+      "n_rounds": 30,
+      "mean_ms": 306.6189728716078,
+      "p50_ms": 303.33844502456486,
+      "p95_ms": 338.2651756226551,
+      "p99_ms": 346.1405549268238,
+      "phase_mean_ms": {
+        "dcl_proof": 68.55929330922663,
+        "gcl_domain_proof": 154.25722678968063,
+        "rtl_verify": 83.74256423752134,
+        "local_merkle_verify": 0.032636080868542194,
+        "local_domain_verify": 0.02227246683711807
+      }
+    },
+    "asymmetric": {
+      "label": "Asymmetric (mixed)",
+      "n_rounds": 30,
+      "mean_ms": 116.54161841142923,
+      "p50_ms": 114.03351050103083,
+      "p95_ms": 150.8687996363733,
+      "p99_ms": 159.18267247499898,
+      "phase_mean_ms": {
+        "dcl_proof": 43.02084759886687,
+        "gcl_domain_proof": 51.71058588894084,
+        "rtl_verify": 21.747572673484683,
+        "local_merkle_verify": 0.0352404429577291,
+        "local_domain_verify": 0.022275967057794333
+      }
+    }
+  },
+  "exp8c_rtt_multiplier": {
+    "lan": {
+      "label": "LAN (~2ms)",
+      "base_rtt_ms": 2,
+      "measured_mean_ms": 8.57,
+      "rtt_multiplier": 4.29
+    },
+    "metro": {
+      "label": "Metro (~10ms)",
+      "base_rtt_ms": 10,
+      "measured_mean_ms": 26.82,
+      "rtt_multiplier": 2.68
+    },
+    "wan": {
+      "label": "WAN (~50ms)",
+      "base_rtt_ms": 50,
+      "measured_mean_ms": 105.78,
+      "rtt_multiplier": 2.12
+    },
+    "cross_region": {
+      "label": "Cross-Region (~150ms)",
+      "base_rtt_ms": 150,
+      "measured_mean_ms": 301.23,
+      "rtt_multiplier": 2.01
+    },
+    "asymmetric": {
+      "label": "Asymmetric (mixed)",
+      "base_rtt_ms": 70,
+      "measured_mean_ms": 118.7,
+      "rtt_multiplier": 1.7
+    }
+  }
+}

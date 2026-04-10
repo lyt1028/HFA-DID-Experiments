@@ -1,0 +1,246 @@
+{
+  "reputation": [
+    {
+      "epoch": 1,
+      "total_malicious": 0,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.7532
+    },
+    {
+      "epoch": 2,
+      "total_malicious": 0,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.8343
+    },
+    {
+      "epoch": 3,
+      "total_malicious": 0,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.8617
+    },
+    {
+      "epoch": 4,
+      "total_malicious": 6,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9178
+    },
+    {
+      "epoch": 5,
+      "total_malicious": 6,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9451
+    },
+    {
+      "epoch": 6,
+      "total_malicious": 6,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9519
+    },
+    {
+      "epoch": 7,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9507
+    },
+    {
+      "epoch": 8,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.951
+    },
+    {
+      "epoch": 9,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9556
+    },
+    {
+      "epoch": 10,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9577
+    },
+    {
+      "epoch": 11,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9588
+    },
+    {
+      "epoch": 12,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9526
+    },
+    {
+      "epoch": 13,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9552
+    },
+    {
+      "epoch": 14,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9534
+    },
+    {
+      "epoch": 15,
+      "total_malicious": 9,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.9537
+    }
+  ],
+  "random": [
+    {
+      "epoch": 1,
+      "total_malicious": 0,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.7288
+    },
+    {
+      "epoch": 2,
+      "total_malicious": 0,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.8168
+    },
+    {
+      "epoch": 3,
+      "total_malicious": 0,
+      "mal_in_committee": 0,
+      "honest_in_committee": 20,
+      "success_rate": 100.0,
+      "avg_reputation": 0.8397
+    },
+    {
+      "epoch": 4,
+      "total_malicious": 6,
+      "mal_in_committee": 4,
+      "honest_in_committee": 16,
+      "success_rate": 100.0,
+      "avg_reputation": 0.8307
+    },
+    {
+      "epoch": 5,
+      "total_malicious": 6,
+      "mal_in_committee": 4,
+      "honest_in_committee": 16,
+      "success_rate": 100.0,
+      "avg_reputation": 0.8304
+    },
+    {
+      "epoch": 6,
+      "total_malicious": 6,
+      "mal_in_committee": 5,
+      "honest_in_committee": 15,
+      "success_rate": 99.3,
+      "avg_reputation": 0.8004
+    },
+    {
+      "epoch": 7,
+      "total_malicious": 9,
+      "mal_in_committee": 5,
+      "honest_in_committee": 15,
+      "success_rate": 99.7,
+      "avg_reputation": 0.8242
+    },
+    {
+      "epoch": 8,
+      "total_malicious": 9,
+      "mal_in_committee": 7,
+      "honest_in_committee": 13,
+      "success_rate": 85.7,
+      "avg_reputation": 0.7397
+    },
+    {
+      "epoch": 9,
+      "total_malicious": 9,
+      "mal_in_committee": 5,
+      "honest_in_committee": 15,
+      "success_rate": 99.3,
+      "avg_reputation": 0.8033
+    },
+    {
+      "epoch": 10,
+      "total_malicious": 9,
+      "mal_in_committee": 9,
+      "honest_in_committee": 11,
+      "success_rate": 0.0,
+      "avg_reputation": 0.6658
+    },
+    {
+      "epoch": 11,
+      "total_malicious": 9,
+      "mal_in_committee": 7,
+      "honest_in_committee": 13,
+      "success_rate": 86.3,
+      "avg_reputation": 0.73
+    },
+    {
+      "epoch": 12,
+      "total_malicious": 9,
+      "mal_in_committee": 7,
+      "honest_in_committee": 13,
+      "success_rate": 86.0,
+      "avg_reputation": 0.7303
+    },
+    {
+      "epoch": 13,
+      "total_malicious": 9,
+      "mal_in_committee": 6,
+      "honest_in_committee": 14,
+      "success_rate": 98.3,
+      "avg_reputation": 0.7687
+    },
+    {
+      "epoch": 14,
+      "total_malicious": 9,
+      "mal_in_committee": 6,
+      "honest_in_committee": 14,
+      "success_rate": 96.7,
+      "avg_reputation": 0.7563
+    },
+    {
+      "epoch": 15,
+      "total_malicious": 9,
+      "mal_in_committee": 7,
+      "honest_in_committee": 13,
+      "success_rate": 87.0,
+      "avg_reputation": 0.7252
+    }
+  ]
+}

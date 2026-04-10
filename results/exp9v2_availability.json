@@ -1,0 +1,68 @@
+{
+  "S0: 全部正常": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 17.100727616343647,
+    "hfa_latency_std": 1.2425542619446452,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 16.41493358183652,
+    "relay_latency_std": 0.29548855879585506,
+    "healthy_pct": 100.0
+  },
+  "S1: 1域高延迟": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.69791939202696,
+    "hfa_latency_std": 0.4980974154873241,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 16.36731519829482,
+    "relay_latency_std": 0.11654971518118935,
+    "healthy_pct": 100.0
+  },
+  "S2: 1离线+1间歇": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.32474479265511,
+    "hfa_latency_std": 0.5953871187520545,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 15.951839974150062,
+    "relay_latency_std": 0.062691794762756,
+    "healthy_pct": 60.0
+  },
+  "S3: 2离线+1高延迟": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.45983017515391,
+    "hfa_latency_std": 0.731832030310914,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 16.05338982772082,
+    "relay_latency_std": 0.24963791806973235,
+    "healthy_pct": 60.0
+  },
+  "S4: 3离线+1间歇": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.560911003034562,
+    "hfa_latency_std": 0.6510676940152582,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 16.229036590084434,
+    "relay_latency_std": 0.27855509686735275,
+    "healthy_pct": 20.0
+  },
+  "S5: 全部离线": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.35078761028126,
+    "hfa_latency_std": 0.7347782724116373,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 16.156265197787434,
+    "relay_latency_std": 0.3316473353598805,
+    "healthy_pct": 0.0
+  }
+}

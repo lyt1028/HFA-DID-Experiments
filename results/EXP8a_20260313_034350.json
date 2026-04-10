@@ -1,0 +1,140 @@
+{
+  "experiment": "Network Simulation: HFA-DID vs DIDCross",
+  "params": {
+    "num_trials": 100,
+    "n_credentials": 1000,
+    "domains": [
+      "DCL_A",
+      "DCL_B",
+      "DCL_C"
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "rtt_baseline": {
+    "RTL": {
+      "avg_ms": 4.48,
+      "p95_ms": 6.97
+    },
+    "GCL": {
+      "avg_ms": 5.71,
+      "p95_ms": 6.02
+    },
+    "DCL_A": {
+      "avg_ms": 5.97,
+      "p95_ms": 7.79
+    },
+    "DCL_B": {
+      "avg_ms": 5.91,
+      "p95_ms": 7.81
+    },
+    "DCL_C": {
+      "avg_ms": 5.91,
+      "p95_ms": 7.89
+    }
+  },
+  "hfa_did": {
+    "total_stats": {
+      "avg": 21.83,
+      "p50": 21.82,
+      "p95": 22.17,
+      "std": 0.17
+    },
+    "breakdown": {
+      "gcl_snapshot": {
+        "avg": 5.81,
+        "p50": 5.8,
+        "p95": 5.93,
+        "std": 0.07
+      },
+      "gcl_domain_proof": {
+        "avg": 5.79,
+        "p50": 5.79,
+        "p95": 5.95,
+        "std": 0.07
+      },
+      "gcl_bitmap": {
+        "avg": 5.72,
+        "p50": 5.71,
+        "p95": 5.82,
+        "std": 0.06
+      },
+      "rtl_endorse": {
+        "avg": 4.48,
+        "p50": 4.47,
+        "p95": 4.56,
+        "std": 0.04
+      },
+      "local_verify": {
+        "avg": 0.03,
+        "p50": 0.03,
+        "p95": 0.03,
+        "std": 0.0
+      },
+      "bitmap_check": {
+        "avg": 0.0,
+        "p50": 0.0,
+        "p95": 0.0,
+        "std": 0.0
+      },
+      "total": {
+        "avg": 21.83,
+        "p50": 21.82,
+        "p95": 22.17,
+        "std": 0.17
+      }
+    },
+    "success_rate": 1.0
+  },
+  "didcross": {
+    "total_stats": {
+      "avg": 23.64,
+      "p50": 23.64,
+      "p95": 24.06,
+      "std": 0.25
+    },
+    "breakdown": {
+      "source_merkle_proof": {
+        "avg": 6.08,
+        "p50": 6.09,
+        "p95": 6.21,
+        "std": 0.08
+      },
+      "source_block_header": {
+        "avg": 5.83,
+        "p50": 5.82,
+        "p95": 5.99,
+        "std": 0.08
+      },
+      "relay_header_sync": {
+        "avg": 5.85,
+        "p50": 5.85,
+        "p95": 5.99,
+        "std": 0.08
+      },
+      "consensus_check": {
+        "avg": 5.8,
+        "p50": 5.79,
+        "p95": 5.95,
+        "std": 0.08
+      },
+      "local_spv_verify": {
+        "avg": 0.08,
+        "p50": 0.07,
+        "p95": 0.11,
+        "std": 0.01
+      },
+      "total": {
+        "avg": 23.64,
+        "p50": 23.64,
+        "p95": 24.06,
+        "std": 0.25
+      }
+    },
+    "success_rate": 1.0
+  }
+}

@@ -2,16 +2,6 @@
 __pycache__/
 *.pyc
 
-# Results and plots (auto-generated)
-results/
-experiments_paper/results/
-plots/*.png
-plots/*.pdf
-plots/output/
-plots/exp8/*.png
-experiments_paper/plots/
-experiments_paper/*.log
-
 # OS files
 .DS_Store
 Thumbs.db

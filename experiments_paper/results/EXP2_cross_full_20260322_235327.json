@@ -1,0 +1,140 @@
+[
+  {
+    "m": 2,
+    "hfa_total_ms": 828.7,
+    "cross_total_ms": 865.5,
+    "speedup": 1.04,
+    "hfa_breakdown": {
+      "chain_query": 2.7,
+      "network": 5.0,
+      "global_merkle": 0.02,
+      "domain_merkle": 0.04,
+      "bls_verify": 820.96,
+      "total": 828.71
+    },
+    "cross_breakdown": {
+      "relay_discovery": 15.0,
+      "chain_queries": 4.89,
+      "network": 20.0,
+      "spv_verify": 4.0,
+      "domain_merkle": 0.04,
+      "bls_verify": 821.56,
+      "total": 865.5
+    }
+  },
+  {
+    "m": 5,
+    "hfa_total_ms": 829.3,
+    "cross_total_ms": 904.7,
+    "speedup": 1.09,
+    "hfa_breakdown": {
+      "chain_query": 2.74,
+      "network": 5.0,
+      "global_merkle": 0.02,
+      "domain_merkle": 0.04,
+      "bls_verify": 821.55,
+      "total": 829.35
+    },
+    "cross_breakdown": {
+      "relay_discovery": 15.0,
+      "chain_queries": 10.63,
+      "network": 50.0,
+      "spv_verify": 10.0,
+      "domain_merkle": 0.05,
+      "bls_verify": 818.97,
+      "total": 904.66
+    }
+  },
+  {
+    "m": 10,
+    "hfa_total_ms": 835.1,
+    "cross_total_ms": 985.2,
+    "speedup": 1.18,
+    "hfa_breakdown": {
+      "chain_query": 2.99,
+      "network": 5.0,
+      "global_merkle": 0.02,
+      "domain_merkle": 0.04,
+      "bls_verify": 827.02,
+      "total": 835.07
+    },
+    "cross_breakdown": {
+      "relay_discovery": 15.0,
+      "chain_queries": 22.57,
+      "network": 100.0,
+      "spv_verify": 20.0,
+      "domain_merkle": 0.05,
+      "bls_verify": 827.58,
+      "total": 985.2
+    }
+  },
+  {
+    "m": 15,
+    "hfa_total_ms": 832.7,
+    "cross_total_ms": 1053.8,
+    "speedup": 1.27,
+    "hfa_breakdown": {
+      "chain_query": 2.98,
+      "network": 5.0,
+      "global_merkle": 0.02,
+      "domain_merkle": 0.04,
+      "bls_verify": 824.62,
+      "total": 832.66
+    },
+    "cross_breakdown": {
+      "relay_discovery": 15.0,
+      "chain_queries": 32.46,
+      "network": 150.0,
+      "spv_verify": 30.0,
+      "domain_merkle": 0.05,
+      "bls_verify": 826.27,
+      "total": 1053.77
+    }
+  },
+  {
+    "m": 20,
+    "hfa_total_ms": 832.9,
+    "cross_total_ms": 1126.4,
+    "speedup": 1.35,
+    "hfa_breakdown": {
+      "chain_query": 2.97,
+      "network": 5.0,
+      "global_merkle": 0.02,
+      "domain_merkle": 0.04,
+      "bls_verify": 824.91,
+      "total": 832.94
+    },
+    "cross_breakdown": {
+      "relay_discovery": 15.0,
+      "chain_queries": 44.04,
+      "network": 200.0,
+      "spv_verify": 40.0,
+      "domain_merkle": 0.05,
+      "bls_verify": 827.31,
+      "total": 1126.39
+    }
+  },
+  {
+    "m": 30,
+    "hfa_total_ms": 830.8,
+    "cross_total_ms": 1261.8,
+    "speedup": 1.52,
+    "hfa_breakdown": {
+      "chain_query": 2.9,
+      "network": 5.0,
+      "global_merkle": 0.03,
+      "domain_merkle": 0.04,
+      "bls_verify": 822.83,
+      "total": 830.79
+    },
+    "cross_breakdown": {
+      "relay_discovery": 15.0,
+      "chain_queries": 62.43,
+      "network": 300.0,
+      "spv_verify": 60.0,
+      "domain_merkle": 0.05,
+      "bls_verify": 824.28,
+      "total": 1261.76
+    }
+  }
+]

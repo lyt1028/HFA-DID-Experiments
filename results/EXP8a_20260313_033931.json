@@ -1,0 +1,75 @@
+{
+  "experiment": "Network Simulation: HFA-DID vs DIDCross",
+  "params": {
+    "num_trials": 100,
+    "n_credentials": 1000,
+    "domains": [
+      "DCL_A",
+      "DCL_B",
+      "DCL_C"
+    ]
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "rtt_baseline": {
+    "RTL": {
+      "avg_ms": 4.33,
+      "p95_ms": 5.68
+    },
+    "GCL": {
+      "avg_ms": 5.72,
+      "p95_ms": 6.01
+    },
+    "DCL_A": {
+      "avg_ms": 5.72,
+      "p95_ms": 6.01
+    },
+    "DCL_B": {
+      "avg_ms": 5.92,
+      "p95_ms": 7.81
+    },
+    "DCL_C": {
+      "avg_ms": 5.93,
+      "p95_ms": 7.83
+    }
+  },
+  "hfa_did": {
+    "total_stats": {
+      "avg": 10000,
+      "p50": 10000,
+      "p95": 10000,
+      "std": 0.0
+    },
+    "breakdown": {
+      "gcl_snapshot": {},
+      "gcl_domain_proof": {},
+      "gcl_bitmap": {},
+      "rtl_endorse": {},
+      "local_verify": {},
+      "bitmap_check": {},
+      "total": {}
+    },
+    "success_rate": 0.0
+  },
+  "didcross": {
+    "total_stats": {
+      "avg": 10000,
+      "p50": 10000,
+      "p95": 10000,
+      "std": 0.0
+    },
+    "breakdown": {
+      "source_merkle_proof": {},
+      "source_block_header": {},
+      "relay_header_sync": {},
+      "consensus_check": {},
+      "local_spv_verify": {},
+      "total": {}
+    },
+    "success_rate": 0.0
+  }
+}

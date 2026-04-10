@@ -1,0 +1,50 @@
+{
+  "experiment": "RTT Multiplier Analysis",
+  "params": {
+    "num_trials": 100
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "hfa_did": {
+    "request_targets": {
+      "GCL": 300,
+      "RTL": 100,
+      "source_DCL": 0
+    },
+    "avg_ms": 1019.82
+  },
+  "didcross": {
+    "request_targets": {
+      "GCL": 100,
+      "RTL": 0,
+      "source_DCL": 300
+    },
+    "avg_ms": 1111.6
+  },
+  "rtt_baseline": {
+    "RTL": {
+      "avg_ms": 203.17,
+      "p95_ms": 241.04
+    },
+    "GCL": {
+      "avg_ms": 230.39,
+      "p95_ms": 270.08
+    },
+    "DCL_A": {
+      "avg_ms": 276.47,
+      "p95_ms": 733.77
+    },
+    "DCL_B": {
+      "avg_ms": 329.59,
+      "p95_ms": 1252.8
+    },
+    "DCL_C": {
+      "avg_ms": 315.24,
+      "p95_ms": 379.24
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "peak_0": {
+    "fixed_t8": {
+      "avg_latency": 1490,
+      "breach_epochs": 0,
+      "min_margin": 8,
+      "t": 8
+    },
+    "fixed_t9": {
+      "avg_latency": 1573,
+      "breach_epochs": 0,
+      "min_margin": 9,
+      "t": 9
+    },
+    "fixed_t10": {
+      "avg_latency": 1672,
+      "breach_epochs": 0,
+      "min_margin": 10,
+      "t": 10
+    },
+    "fixed_t11": {
+      "avg_latency": 1741,
+      "breach_epochs": 0,
+      "min_margin": 11,
+      "t": 11
+    },
+    "fixed_t12": {
+      "avg_latency": 1839,
+      "breach_epochs": 0,
+      "min_margin": 12,
+      "t": 12
+    },
+    "fixed_t13": {
+      "avg_latency": 1900,
+      "breach_epochs": 0,
+      "min_margin": 13,
+      "t": 13
+    },
+    "adaptive": {
+      "avg_latency": 1490,
+      "breach_epochs": 0,
+      "min_margin": 8,
+      "t": "adaptive"
+    }
+  },
+  "peak_15": {
+    "fixed_t8": {
+      "avg_latency": 1490,
+      "breach_epochs": 0,
+      "min_margin": 5,
+      "t": 8
+    },
+    "fixed_t9": {
+      "avg_latency": 1573,
+      "breach_epochs": 0,
+      "min_margin": 6,
+      "t": 9
+    },
+    "fixed_t10": {
+      "avg_latency": 1672,
+      "breach_epochs": 0,
+      "min_margin": 7,
+      "t": 10
+    },
+    "fixed_t11": {
+      "avg_latency": 1741,
+      "breach_epochs": 0,
+      "min_margin": 8,
+      "t": 11
+    },
+    "fixed_t12": {
+      "avg_latency": 1839,
+      "breach_epochs": 0,
+      "min_margin": 9,
+      "t": 12
+    },
+    "fixed_t13": {
+      "avg_latency": 1900,
+      "breach_epochs": 0,
+      "min_margin": 10,
+      "t": 13
+    },
+    "adaptive": {
+      "avg_latency": 1566,
+      "breach_epochs": 0,
+      "min_margin": 7,
+      "t": "adaptive"
+    }
+  },
+  "peak_30": {
+    "fixed_t8": {
+      "avg_latency": 1490,
+      "breach_epochs": 0,
+      "min_margin": 2,
+      "t": 8
+    },
+    "fixed_t9": {
+      "avg_latency": 1573,
+      "breach_epochs": 0,
+      "min_margin": 3,
+      "t": 9
+    },
+    "fixed_t10": {
+      "avg_latency": 1672,
+      "breach_epochs": 0,
+      "min_margin": 4,
+      "t": 10
+    },
+    "fixed_t11": {
+      "avg_latency": 1741,
+      "breach_epochs": 0,
+      "min_margin": 5,
+      "t": 11
+    },
+    "fixed_t12": {
+      "avg_latency": 1839,
+      "breach_epochs": 0,
+      "min_margin": 6,
+      "t": 12
+    },
+    "fixed_t13": {
+      "avg_latency": 1900,
+      "breach_epochs": 0,
+      "min_margin": 7,
+      "t": 13
+    },
+    "adaptive": {
+      "avg_latency": 1617,
+      "breach_epochs": 0,
+      "min_margin": 5,
+      "t": "adaptive"
+    }
+  },
+  "peak_45": {
+    "fixed_t8": {
+      "avg_latency": 1490,
+      "breach_epochs": 1,
+      "min_margin": -1,
+      "t": 8
+    },
+    "fixed_t9": {
+      "avg_latency": 1573,
+      "breach_epochs": 1,
+      "min_margin": 0,
+      "t": 9
+    },
+    "fixed_t10": {
+      "avg_latency": 1672,
+      "breach_epochs": 0,
+      "min_margin": 1,
+      "t": 10
+    },
+    "fixed_t11": {
+      "avg_latency": 1741,
+      "breach_epochs": 0,
+      "min_margin": 2,
+      "t": 11
+    },
+    "fixed_t12": {
+      "avg_latency": 1839,
+      "breach_epochs": 0,
+      "min_margin": 3,
+      "t": 12
+    },
+    "fixed_t13": {
+      "avg_latency": 1900,
+      "breach_epochs": 0,
+      "min_margin": 4,
+      "t": 13
+    },
+    "adaptive": {
+      "avg_latency": 1656,
+      "breach_epochs": 0,
+      "min_margin": 2,
+      "t": "adaptive"
+    }
+  },
+  "peak_60": {
+    "fixed_t8": {
+      "avg_latency": 1490,
+      "breach_epochs": 5,
+      "min_margin": -4,
+      "t": 8
+    },
+    "fixed_t9": {
+      "avg_latency": 1573,
+      "breach_epochs": 3,
+      "min_margin": -3,
+      "t": 9
+    },
+    "fixed_t10": {
+      "avg_latency": 1672,
+      "breach_epochs": 3,
+      "min_margin": -2,
+      "t": 10
+    },
+    "fixed_t11": {
+      "avg_latency": 1741,
+      "breach_epochs": 1,
+      "min_margin": -1,
+      "t": 11
+    },
+    "fixed_t12": {
+      "avg_latency": 1839,
+      "breach_epochs": 1,
+      "min_margin": 0,
+      "t": 12
+    },
+    "fixed_t13": {
+      "avg_latency": 1900,
+      "breach_epochs": 0,
+      "min_margin": 1,
+      "t": 13
+    },
+    "adaptive": {
+      "avg_latency": 1697,
+      "breach_epochs": 1,
+      "min_margin": 0,
+      "t": "adaptive"
+    }
+  }
+}

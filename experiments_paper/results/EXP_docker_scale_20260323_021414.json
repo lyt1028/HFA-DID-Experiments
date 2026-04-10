@@ -1,0 +1,152 @@
+{
+  "lan_m2": {
+    "m": 2,
+    "profile": "lan",
+    "hfa_query_ms": 2982.2,
+    "hfa_total_ms": 3795.5,
+    "cross_query_ms": 105.2,
+    "cross_total_ms": 918.4,
+    "bls_verify_ms": 813.2,
+    "query_speedup": 0.0
+  },
+  "wan_m2": {
+    "m": 2,
+    "profile": "wan",
+    "hfa_query_ms": 2782.7,
+    "hfa_total_ms": 3600.7,
+    "cross_query_ms": 324.9,
+    "cross_total_ms": 1142.9,
+    "bls_verify_ms": 818.0,
+    "query_speedup": 0.1
+  },
+  "cross_region_m2": {
+    "m": 2,
+    "profile": "cross_region",
+    "hfa_query_ms": 2491.1,
+    "hfa_total_ms": 3297.3,
+    "cross_query_ms": 653.0,
+    "cross_total_ms": 1459.1,
+    "bls_verify_ms": 806.1,
+    "query_speedup": 0.3
+  },
+  "lan_m5": {
+    "m": 5,
+    "profile": "lan",
+    "hfa_query_ms": 2841.1,
+    "hfa_total_ms": 3655.9,
+    "cross_query_ms": 262.5,
+    "cross_total_ms": 1077.3,
+    "bls_verify_ms": 814.8,
+    "query_speedup": 0.1
+  },
+  "wan_m5": {
+    "m": 5,
+    "profile": "wan",
+    "hfa_query_ms": 2433.2,
+    "hfa_total_ms": 3248.5,
+    "cross_query_ms": 711.4,
+    "cross_total_ms": 1526.8,
+    "bls_verify_ms": 815.3,
+    "query_speedup": 0.3
+  },
+  "cross_region_m5": {
+    "m": 5,
+    "profile": "cross_region",
+    "hfa_query_ms": 1730.8,
+    "hfa_total_ms": 2536.6,
+    "cross_query_ms": 1664.9,
+    "cross_total_ms": 2470.7,
+    "bls_verify_ms": 805.9,
+    "query_speedup": 1.0
+  },
+  "lan_m10": {
+    "m": 10,
+    "profile": "lan",
+    "hfa_query_ms": 2602.7,
+    "hfa_total_ms": 3414.4,
+    "cross_query_ms": 525.9,
+    "cross_total_ms": 1337.6,
+    "bls_verify_ms": 811.7,
+    "query_speedup": 0.2
+  },
+  "wan_m10": {
+    "m": 10,
+    "profile": "wan",
+    "hfa_query_ms": 1777.7,
+    "hfa_total_ms": 2593.4,
+    "cross_query_ms": 1589.0,
+    "cross_total_ms": 2404.7,
+    "bls_verify_ms": 815.8,
+    "query_speedup": 0.9
+  },
+  "cross_region_m10": {
+    "m": 10,
+    "profile": "cross_region",
+    "hfa_query_ms": 3108.2,
+    "hfa_total_ms": 3913.2,
+    "cross_query_ms": 3504.9,
+    "cross_total_ms": 4309.9,
+    "bls_verify_ms": 804.9,
+    "query_speedup": 1.1
+  },
+  "lan_m15": {
+    "m": 15,
+    "profile": "lan",
+    "hfa_query_ms": 2365.3,
+    "hfa_total_ms": 3180.3,
+    "cross_query_ms": 790.9,
+    "cross_total_ms": 1605.9,
+    "bls_verify_ms": 815.0,
+    "query_speedup": 0.3
+  },
+  "wan_m15": {
+    "m": 15,
+    "profile": "wan",
+    "hfa_query_ms": 1996.2,
+    "hfa_total_ms": 2801.6,
+    "cross_query_ms": 2230.9,
+    "cross_total_ms": 3036.4,
+    "bls_verify_ms": 805.5,
+    "query_speedup": 1.1
+  },
+  "cross_region_m15": {
+    "m": 15,
+    "profile": "cross_region",
+    "hfa_query_ms": 3113.0,
+    "hfa_total_ms": 3933.1,
+    "cross_query_ms": 5227.1,
+    "cross_total_ms": 6047.2,
+    "bls_verify_ms": 820.1,
+    "query_speedup": 1.7
+  },
+  "lan_m20": {
+    "m": 20,
+    "profile": "lan",
+    "hfa_query_ms": 2119.0,
+    "hfa_total_ms": 2932.8,
+    "cross_query_ms": 1062.9,
+    "cross_total_ms": 1876.8,
+    "bls_verify_ms": 813.9,
+    "query_speedup": 0.5
+  },
+  "wan_m20": {
+    "m": 20,
+    "profile": "wan",
+    "hfa_query_ms": 1936.6,
+    "hfa_total_ms": 2750.6,
+    "cross_query_ms": 2922.3,
+    "cross_total_ms": 3736.3,
+    "bls_verify_ms": 814.1,
+    "query_speedup": 1.5
+  },
+  "cross_region_m20": {
+    "m": 20,
+    "profile": "cross_region",
+    "hfa_query_ms": 3110.1,
+    "hfa_total_ms": 3925.3,
+    "cross_query_ms": 6588.6,
+    "cross_total_ms": 7403.9,
+    "bls_verify_ms": 815.3,
+    "query_speedup": 2.1
+  }
+}

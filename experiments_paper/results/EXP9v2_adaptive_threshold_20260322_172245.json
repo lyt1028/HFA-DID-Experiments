@@ -1,0 +1,603 @@
+{
+  "part_a": [
+    {
+      "n": 20,
+      "t": 7,
+      "t_ratio": 0.35,
+      "avg_partial_sign_ms": 474.1,
+      "avg_aggregate_ms": 115.57,
+      "avg_verify_ms": 813.92,
+      "avg_total_ms": 1403.6,
+      "std_total_ms": 9.73,
+      "comm_partial_bytes": 672,
+      "comm_total_bytes": 768
+    },
+    {
+      "n": 20,
+      "t": 8,
+      "t_ratio": 0.4,
+      "avg_partial_sign_ms": 535.26,
+      "avg_aggregate_ms": 149.66,
+      "avg_verify_ms": 812.65,
+      "avg_total_ms": 1497.57,
+      "std_total_ms": 17.08,
+      "comm_partial_bytes": 768,
+      "comm_total_bytes": 864
+    },
+    {
+      "n": 20,
+      "t": 9,
+      "t_ratio": 0.45,
+      "avg_partial_sign_ms": 614.67,
+      "avg_aggregate_ms": 152.4,
+      "avg_verify_ms": 812.02,
+      "avg_total_ms": 1579.09,
+      "std_total_ms": 11.65,
+      "comm_partial_bytes": 864,
+      "comm_total_bytes": 960
+    },
+    {
+      "n": 20,
+      "t": 10,
+      "t_ratio": 0.5,
+      "avg_partial_sign_ms": 675.9,
+      "avg_aggregate_ms": 185.97,
+      "avg_verify_ms": 812.98,
+      "avg_total_ms": 1674.85,
+      "std_total_ms": 10.08,
+      "comm_partial_bytes": 960,
+      "comm_total_bytes": 1056
+    },
+    {
+      "n": 20,
+      "t": 11,
+      "t_ratio": 0.55,
+      "avg_partial_sign_ms": 748.19,
+      "avg_aggregate_ms": 190.43,
+      "avg_verify_ms": 811.22,
+      "avg_total_ms": 1749.83,
+      "std_total_ms": 6.43,
+      "comm_partial_bytes": 1056,
+      "comm_total_bytes": 1152
+    },
+    {
+      "n": 20,
+      "t": 12,
+      "t_ratio": 0.6,
+      "avg_partial_sign_ms": 796.88,
+      "avg_aggregate_ms": 224.0,
+      "avg_verify_ms": 808.55,
+      "avg_total_ms": 1829.44,
+      "std_total_ms": 10.42,
+      "comm_partial_bytes": 1152,
+      "comm_total_bytes": 1248
+    },
+    {
+      "n": 20,
+      "t": 13,
+      "t_ratio": 0.65,
+      "avg_partial_sign_ms": 866.79,
+      "avg_aggregate_ms": 228.82,
+      "avg_verify_ms": 811.21,
+      "avg_total_ms": 1906.82,
+      "std_total_ms": 15.58,
+      "comm_partial_bytes": 1248,
+      "comm_total_bytes": 1344
+    },
+    {
+      "n": 20,
+      "t": 14,
+      "t_ratio": 0.7,
+      "avg_partial_sign_ms": 941.33,
+      "avg_aggregate_ms": 262.41,
+      "avg_verify_ms": 809.3,
+      "avg_total_ms": 2013.04,
+      "std_total_ms": 13.43,
+      "comm_partial_bytes": 1344,
+      "comm_total_bytes": 1440
+    }
+  ],
+  "part_b": {
+    "fixed_high": [
+      {
+        "epoch": 1,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1919.57,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0582
+      },
+      {
+        "epoch": 2,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1916.99,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.059
+      },
+      {
+        "epoch": 3,
+        "t_e": 11,
+        "f_active": 2,
+        "safety_margin": 9,
+        "avg_sign_latency_ms": 1896.74,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.1,
+        "nu": 0.1232
+      },
+      {
+        "epoch": 4,
+        "t_e": 11,
+        "f_active": 3,
+        "safety_margin": 8,
+        "avg_sign_latency_ms": 1915.34,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.15,
+        "nu": 0.1821
+      },
+      {
+        "epoch": 5,
+        "t_e": 11,
+        "f_active": 4,
+        "safety_margin": 7,
+        "avg_sign_latency_ms": 1897.19,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.2,
+        "nu": 0.2172
+      },
+      {
+        "epoch": 6,
+        "t_e": 11,
+        "f_active": 5,
+        "safety_margin": 6,
+        "avg_sign_latency_ms": 1910.12,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.25,
+        "nu": 0.2609
+      },
+      {
+        "epoch": 7,
+        "t_e": 11,
+        "f_active": 6,
+        "safety_margin": 5,
+        "avg_sign_latency_ms": 1906.59,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.3,
+        "nu": 0.287
+      },
+      {
+        "epoch": 8,
+        "t_e": 11,
+        "f_active": 7,
+        "safety_margin": 4,
+        "avg_sign_latency_ms": 1899.89,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.35,
+        "nu": 0.3087
+      },
+      {
+        "epoch": 9,
+        "t_e": 11,
+        "f_active": 7,
+        "safety_margin": 4,
+        "avg_sign_latency_ms": 1911.27,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.35,
+        "nu": 0.3199
+      },
+      {
+        "epoch": 10,
+        "t_e": 11,
+        "f_active": 6,
+        "safety_margin": 5,
+        "avg_sign_latency_ms": 1926.38,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.3,
+        "nu": 0.303
+      },
+      {
+        "epoch": 11,
+        "t_e": 11,
+        "f_active": 5,
+        "safety_margin": 6,
+        "avg_sign_latency_ms": 1927.5,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.25,
+        "nu": 0.2836
+      },
+      {
+        "epoch": 12,
+        "t_e": 11,
+        "f_active": 3,
+        "safety_margin": 8,
+        "avg_sign_latency_ms": 1904.47,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.15,
+        "nu": 0.2439
+      },
+      {
+        "epoch": 13,
+        "t_e": 11,
+        "f_active": 2,
+        "safety_margin": 9,
+        "avg_sign_latency_ms": 1892.17,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.1,
+        "nu": 0.1904
+      },
+      {
+        "epoch": 14,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1889.11,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0948
+      },
+      {
+        "epoch": 15,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1886.66,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0607
+      }
+    ],
+    "fixed_low": [
+      {
+        "epoch": 1,
+        "t_e": 7,
+        "f_active": 0,
+        "safety_margin": 7,
+        "avg_sign_latency_ms": 1491.09,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0582
+      },
+      {
+        "epoch": 2,
+        "t_e": 7,
+        "f_active": 0,
+        "safety_margin": 7,
+        "avg_sign_latency_ms": 1503.4,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.068
+      },
+      {
+        "epoch": 3,
+        "t_e": 7,
+        "f_active": 2,
+        "safety_margin": 5,
+        "avg_sign_latency_ms": 1512.79,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.1,
+        "nu": 0.1315
+      },
+      {
+        "epoch": 4,
+        "t_e": 7,
+        "f_active": 3,
+        "safety_margin": 4,
+        "avg_sign_latency_ms": 1487.97,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.15,
+        "nu": 0.1782
+      },
+      {
+        "epoch": 5,
+        "t_e": 7,
+        "f_active": 4,
+        "safety_margin": 3,
+        "avg_sign_latency_ms": 1489.19,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.2,
+        "nu": 0.2199
+      },
+      {
+        "epoch": 6,
+        "t_e": 7,
+        "f_active": 5,
+        "safety_margin": 2,
+        "avg_sign_latency_ms": 1487.68,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.25,
+        "nu": 0.2603
+      },
+      {
+        "epoch": 7,
+        "t_e": 7,
+        "f_active": 6,
+        "safety_margin": 1,
+        "avg_sign_latency_ms": 1506.03,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.3,
+        "nu": 0.2883
+      },
+      {
+        "epoch": 8,
+        "t_e": 7,
+        "f_active": 7,
+        "safety_margin": 0,
+        "avg_sign_latency_ms": 1506.28,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.35,
+        "nu": 0.3107
+      },
+      {
+        "epoch": 9,
+        "t_e": 7,
+        "f_active": 7,
+        "safety_margin": 0,
+        "avg_sign_latency_ms": 1491.43,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.35,
+        "nu": 0.3212
+      },
+      {
+        "epoch": 10,
+        "t_e": 7,
+        "f_active": 6,
+        "safety_margin": 1,
+        "avg_sign_latency_ms": 1502.85,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.3,
+        "nu": 0.3187
+      },
+      {
+        "epoch": 11,
+        "t_e": 7,
+        "f_active": 5,
+        "safety_margin": 2,
+        "avg_sign_latency_ms": 1497.27,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.25,
+        "nu": 0.2837
+      },
+      {
+        "epoch": 12,
+        "t_e": 7,
+        "f_active": 3,
+        "safety_margin": 4,
+        "avg_sign_latency_ms": 1518.99,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.15,
+        "nu": 0.2218
+      },
+      {
+        "epoch": 13,
+        "t_e": 7,
+        "f_active": 2,
+        "safety_margin": 5,
+        "avg_sign_latency_ms": 1467.17,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.1,
+        "nu": 0.1788
+      },
+      {
+        "epoch": 14,
+        "t_e": 7,
+        "f_active": 0,
+        "safety_margin": 7,
+        "avg_sign_latency_ms": 1461.05,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0908
+      },
+      {
+        "epoch": 15,
+        "t_e": 7,
+        "f_active": 0,
+        "safety_margin": 7,
+        "avg_sign_latency_ms": 1503.11,
+        "comm_bytes_per_issuance": 768,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0404
+      }
+    ],
+    "adaptive": [
+      {
+        "epoch": 1,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1901.29,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0582
+      },
+      {
+        "epoch": 2,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1912.64,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.059
+      },
+      {
+        "epoch": 3,
+        "t_e": 11,
+        "f_active": 2,
+        "safety_margin": 9,
+        "avg_sign_latency_ms": 1879.76,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.1,
+        "nu": 0.1232
+      },
+      {
+        "epoch": 4,
+        "t_e": 12,
+        "f_active": 3,
+        "safety_margin": 9,
+        "avg_sign_latency_ms": 2014.11,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.15,
+        "nu": 0.1821
+      },
+      {
+        "epoch": 5,
+        "t_e": 12,
+        "f_active": 4,
+        "safety_margin": 8,
+        "avg_sign_latency_ms": 2031.43,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.2,
+        "nu": 0.213
+      },
+      {
+        "epoch": 6,
+        "t_e": 12,
+        "f_active": 5,
+        "safety_margin": 7,
+        "avg_sign_latency_ms": 2014.01,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.25,
+        "nu": 0.2534
+      },
+      {
+        "epoch": 7,
+        "t_e": 12,
+        "f_active": 6,
+        "safety_margin": 6,
+        "avg_sign_latency_ms": 1988.15,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.3,
+        "nu": 0.2709
+      },
+      {
+        "epoch": 8,
+        "t_e": 12,
+        "f_active": 7,
+        "safety_margin": 5,
+        "avg_sign_latency_ms": 1995.81,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.35,
+        "nu": 0.2957
+      },
+      {
+        "epoch": 9,
+        "t_e": 12,
+        "f_active": 7,
+        "safety_margin": 5,
+        "avg_sign_latency_ms": 2020.01,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.35,
+        "nu": 0.3062
+      },
+      {
+        "epoch": 10,
+        "t_e": 12,
+        "f_active": 6,
+        "safety_margin": 6,
+        "avg_sign_latency_ms": 2014.32,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.3,
+        "nu": 0.2999
+      },
+      {
+        "epoch": 11,
+        "t_e": 12,
+        "f_active": 5,
+        "safety_margin": 7,
+        "avg_sign_latency_ms": 2000.92,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.25,
+        "nu": 0.2859
+      },
+      {
+        "epoch": 12,
+        "t_e": 12,
+        "f_active": 3,
+        "safety_margin": 9,
+        "avg_sign_latency_ms": 1980.21,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.15,
+        "nu": 0.2433
+      },
+      {
+        "epoch": 13,
+        "t_e": 12,
+        "f_active": 2,
+        "safety_margin": 10,
+        "avg_sign_latency_ms": 2016.77,
+        "comm_bytes_per_issuance": 1248,
+        "success_rate": 100.0,
+        "threat_level": 0.1,
+        "nu": 0.2087
+      },
+      {
+        "epoch": 14,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1869.88,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0842
+      },
+      {
+        "epoch": 15,
+        "t_e": 11,
+        "f_active": 0,
+        "safety_margin": 11,
+        "avg_sign_latency_ms": 1896.26,
+        "comm_bytes_per_issuance": 1152,
+        "success_rate": 100.0,
+        "threat_level": 0.0,
+        "nu": 0.0631
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "peak_0": {
+    "fixed_t8": {
+      "avg_latency": 1601,
+      "breach_epochs": 0,
+      "min_margin": 8
+    },
+    "fixed_t10": {
+      "avg_latency": 1808,
+      "breach_epochs": 0,
+      "min_margin": 10
+    },
+    "fixed_t11": {
+      "avg_latency": 1910,
+      "breach_epochs": 0,
+      "min_margin": 11
+    },
+    "fixed_t13": {
+      "avg_latency": 2116,
+      "breach_epochs": 0,
+      "min_margin": 13
+    },
+    "adaptive": {
+      "avg_latency": 1602,
+      "breach_epochs": 0,
+      "min_margin": 8
+    }
+  },
+  "peak_15": {
+    "fixed_t8": {
+      "avg_latency": 1605,
+      "breach_epochs": 0,
+      "min_margin": 5
+    },
+    "fixed_t10": {
+      "avg_latency": 1816,
+      "breach_epochs": 0,
+      "min_margin": 7
+    },
+    "fixed_t11": {
+      "avg_latency": 1911,
+      "breach_epochs": 0,
+      "min_margin": 8
+    },
+    "fixed_t13": {
+      "avg_latency": 2109,
+      "breach_epochs": 0,
+      "min_margin": 10
+    },
+    "adaptive": {
+      "avg_latency": 1699,
+      "breach_epochs": 0,
+      "min_margin": 7
+    }
+  },
+  "peak_30": {
+    "fixed_t8": {
+      "avg_latency": 1603,
+      "breach_epochs": 0,
+      "min_margin": 2
+    },
+    "fixed_t10": {
+      "avg_latency": 1818,
+      "breach_epochs": 0,
+      "min_margin": 4
+    },
+    "fixed_t11": {
+      "avg_latency": 1924,
+      "breach_epochs": 0,
+      "min_margin": 5
+    },
+    "fixed_t13": {
+      "avg_latency": 2109,
+      "breach_epochs": 0,
+      "min_margin": 7
+    },
+    "adaptive": {
+      "avg_latency": 1762,
+      "breach_epochs": 0,
+      "min_margin": 5
+    }
+  },
+  "peak_45": {
+    "fixed_t8": {
+      "avg_latency": 1608,
+      "breach_epochs": 1,
+      "min_margin": -1
+    },
+    "fixed_t10": {
+      "avg_latency": 1811,
+      "breach_epochs": 0,
+      "min_margin": 1
+    },
+    "fixed_t11": {
+      "avg_latency": 1910,
+      "breach_epochs": 0,
+      "min_margin": 2
+    },
+    "fixed_t13": {
+      "avg_latency": 2102,
+      "breach_epochs": 0,
+      "min_margin": 4
+    },
+    "adaptive": {
+      "avg_latency": 1811,
+      "breach_epochs": 0,
+      "min_margin": 3
+    }
+  },
+  "peak_60": {
+    "fixed_t8": {
+      "avg_latency": 1598,
+      "breach_epochs": 5,
+      "min_margin": -4
+    },
+    "fixed_t10": {
+      "avg_latency": 1810,
+      "breach_epochs": 3,
+      "min_margin": -2
+    },
+    "fixed_t11": {
+      "avg_latency": 1906,
+      "breach_epochs": 1,
+      "min_margin": -1
+    },
+    "fixed_t13": {
+      "avg_latency": 2090,
+      "breach_epochs": 0,
+      "min_margin": 1
+    },
+    "adaptive": {
+      "avg_latency": 1839,
+      "breach_epochs": 1,
+      "min_margin": 0
+    }
+  }
+}

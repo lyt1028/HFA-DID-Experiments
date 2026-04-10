@@ -1,0 +1,211 @@
+{
+  "exp8a_lan": {
+    "profile": "lan",
+    "profile_label": "LAN (~2ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "didcross": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "speedup": 0
+  },
+  "exp8a_metro": {
+    "profile": "metro",
+    "profile_label": "Metro (~10ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "didcross": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "speedup": 0
+  },
+  "exp8a_wan": {
+    "profile": "wan",
+    "profile_label": "WAN (~50ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "didcross": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "speedup": 0
+  },
+  "exp8a_cross_region": {
+    "profile": "cross_region",
+    "profile_label": "Cross-Region (~150ms)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "didcross": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "speedup": 0
+  },
+  "exp8a_asymmetric": {
+    "profile": "asymmetric",
+    "profile_label": "Asymmetric (mixed)",
+    "n_rounds": 50,
+    "hfa_did": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "didcross": {
+      "success_rate": 0.0,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0
+    },
+    "speedup": 0
+  },
+  "exp8b_rtt_sweep": {
+    "lan": {
+      "label": "LAN (~2ms)",
+      "n_rounds": 30,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0,
+      "phase_mean_ms": {
+        "dcl_proof": 0,
+        "gcl_domain_proof": 0,
+        "rtl_verify": 0,
+        "local_merkle_verify": 0,
+        "local_domain_verify": 0
+      }
+    },
+    "metro": {
+      "label": "Metro (~10ms)",
+      "n_rounds": 30,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0,
+      "phase_mean_ms": {
+        "dcl_proof": 0,
+        "gcl_domain_proof": 0,
+        "rtl_verify": 0,
+        "local_merkle_verify": 0,
+        "local_domain_verify": 0
+      }
+    },
+    "wan": {
+      "label": "WAN (~50ms)",
+      "n_rounds": 30,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0,
+      "phase_mean_ms": {
+        "dcl_proof": 0,
+        "gcl_domain_proof": 0,
+        "rtl_verify": 0,
+        "local_merkle_verify": 0,
+        "local_domain_verify": 0
+      }
+    },
+    "cross_region": {
+      "label": "Cross-Region (~150ms)",
+      "n_rounds": 30,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0,
+      "phase_mean_ms": {
+        "dcl_proof": 0,
+        "gcl_domain_proof": 0,
+        "rtl_verify": 0,
+        "local_merkle_verify": 0,
+        "local_domain_verify": 0
+      }
+    },
+    "asymmetric": {
+      "label": "Asymmetric (mixed)",
+      "n_rounds": 30,
+      "mean_ms": 0,
+      "p50_ms": 0,
+      "p95_ms": 0,
+      "p99_ms": 0,
+      "phase_mean_ms": {
+        "dcl_proof": 0,
+        "gcl_domain_proof": 0,
+        "rtl_verify": 0,
+        "local_merkle_verify": 0,
+        "local_domain_verify": 0
+      }
+    }
+  },
+  "exp8c_rtt_multiplier": {
+    "lan": {
+      "label": "LAN (~2ms)",
+      "base_rtt_ms": 2,
+      "measured_mean_ms": 0,
+      "rtt_multiplier": 0.0
+    },
+    "metro": {
+      "label": "Metro (~10ms)",
+      "base_rtt_ms": 10,
+      "measured_mean_ms": 0,
+      "rtt_multiplier": 0.0
+    },
+    "wan": {
+      "label": "WAN (~50ms)",
+      "base_rtt_ms": 50,
+      "measured_mean_ms": 0,
+      "rtt_multiplier": 0.0
+    },
+    "cross_region": {
+      "label": "Cross-Region (~150ms)",
+      "base_rtt_ms": 150,
+      "measured_mean_ms": 0,
+      "rtt_multiplier": 0.0
+    },
+    "asymmetric": {
+      "label": "Asymmetric (mixed)",
+      "base_rtt_ms": 70,
+      "measured_mean_ms": 0,
+      "rtt_multiplier": 0.0
+    }
+  }
+}

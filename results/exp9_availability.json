@@ -1,0 +1,62 @@
+{
+  "1.0": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 17.035646608565003,
+    "hfa_latency_std": 0.9045455546778689,
+    "relay_success_mean": 100.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 16.778346593491733,
+    "relay_latency_std": 0.3757258931471869
+  },
+  "0.8": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 17.01392699033022,
+    "hfa_latency_std": 0.26845911662837185,
+    "relay_success_mean": 76.0,
+    "relay_success_std": 14.966629547095765,
+    "relay_latency_mean": 612.8975016181357,
+    "relay_latency_std": 371.6524189417674
+  },
+  "0.6": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.588800004683435,
+    "hfa_latency_std": 0.2617641093368559,
+    "relay_success_mean": 72.0,
+    "relay_success_std": 9.797958971132712,
+    "relay_latency_mean": 711.8378389743157,
+    "relay_latency_std": 243.25328685624842
+  },
+  "0.4": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.77087420830503,
+    "hfa_latency_std": 0.6231551373407533,
+    "relay_success_mean": 28.0,
+    "relay_success_std": 20.396078054371138,
+    "relay_latency_mean": 1804.5620573800988,
+    "relay_latency_std": 506.6921968307239
+  },
+  "0.2": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 16.186969203408808,
+    "hfa_latency_std": 0.2914791648338933,
+    "relay_success_mean": 24.0,
+    "relay_success_std": 14.966629547095765,
+    "relay_latency_mean": 1903.85165582411,
+    "relay_latency_std": 371.7576339215685
+  },
+  "0.0": {
+    "hfa_success_mean": 100.0,
+    "hfa_success_std": 0.0,
+    "hfa_latency_mean": 17.2437850269489,
+    "hfa_latency_std": 0.7262510349183883,
+    "relay_success_mean": 0.0,
+    "relay_success_std": 0.0,
+    "relay_latency_mean": 2500.0,
+    "relay_latency_std": 0.0
+  }
+}

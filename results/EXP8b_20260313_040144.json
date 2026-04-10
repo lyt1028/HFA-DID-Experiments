@@ -1,0 +1,44 @@
+{
+  "experiment": "RTT Sweep: Network vs Local Breakdown",
+  "params": {
+    "num_trials": 50
+  },
+  "avg_ms": 0,
+  "p50_ms": 0,
+  "p95_ms": 0,
+  "std_ms": 0,
+  "success_rate": 0,
+  "total_count": 0,
+  "rtt_baseline": {
+    "RTL": {
+      "avg_ms": 186.11,
+      "p95_ms": 227.92
+    },
+    "GCL": {
+      "avg_ms": 274.6,
+      "p95_ms": 358.13
+    },
+    "DCL_A": {
+      "avg_ms": 219.08,
+      "p95_ms": 258.95
+    },
+    "DCL_B": {
+      "avg_ms": 212.08,
+      "p95_ms": 259.81
+    },
+    "DCL_C": {
+      "avg_ms": 316.38,
+      "p95_ms": 378.12
+    }
+  },
+  "hfa_did": {
+    "network_avg_ms": 996.58,
+    "local_avg_ms": 0.03,
+    "total_avg_ms": 996.61
+  },
+  "didcross": {
+    "network_avg_ms": 1250.57,
+    "local_avg_ms": 0.08,
+    "total_avg_ms": 1250.6499999999999
+  }
+}
