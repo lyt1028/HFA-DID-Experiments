@@ -99,7 +99,7 @@ def dcl_merkle_proof(cred_idx):
     proof = tree.get_proof(cred_idx)
     return jsonify({
         'leaf': tree.leaves[cred_idx].hex(),
-        'proof': [p.hex() for p in proof],
+        'proof': [{'hash': p[0].hex(), 'dir': p[1]} for p in proof],
         'root': tree.root.hex(),
         'domain_id': STATE['domain_id'],
         'epoch': STATE['epoch'],
@@ -146,7 +146,7 @@ def gcl_domain_proof(domain_id):
     return jsonify({
         'domain_id': domain_id,
         'domain_root': STATE['domain_roots'][domain_id],
-        'proof': [p.hex() for p in proof],
+        'proof': [{'hash': p[0].hex(), 'dir': p[1]} for p in proof],
         'global_root': STATE['global_root'],
         'epoch': STATE['epoch'],
     })

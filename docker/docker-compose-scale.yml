@@ -1,0 +1,504 @@
+networks:
+  hfa-net:
+    driver: bridge
+    ipam:
+      config:
+      - subnet: 172.20.0.0/16
+services:
+  dcl-0:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_0
+    - --port
+    - '5000'
+    container_name: hfa-dcl-0
+    hostname: dcl-0
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.30
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-1:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_1
+    - --port
+    - '5000'
+    container_name: hfa-dcl-1
+    hostname: dcl-1
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.31
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-10:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_10
+    - --port
+    - '5000'
+    container_name: hfa-dcl-10
+    hostname: dcl-10
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.40
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-11:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_11
+    - --port
+    - '5000'
+    container_name: hfa-dcl-11
+    hostname: dcl-11
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.41
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-12:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_12
+    - --port
+    - '5000'
+    container_name: hfa-dcl-12
+    hostname: dcl-12
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.42
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-13:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_13
+    - --port
+    - '5000'
+    container_name: hfa-dcl-13
+    hostname: dcl-13
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.43
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-14:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_14
+    - --port
+    - '5000'
+    container_name: hfa-dcl-14
+    hostname: dcl-14
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.44
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-15:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_15
+    - --port
+    - '5000'
+    container_name: hfa-dcl-15
+    hostname: dcl-15
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.45
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-16:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_16
+    - --port
+    - '5000'
+    container_name: hfa-dcl-16
+    hostname: dcl-16
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.46
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-17:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_17
+    - --port
+    - '5000'
+    container_name: hfa-dcl-17
+    hostname: dcl-17
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.47
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-18:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_18
+    - --port
+    - '5000'
+    container_name: hfa-dcl-18
+    hostname: dcl-18
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.48
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-19:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_19
+    - --port
+    - '5000'
+    container_name: hfa-dcl-19
+    hostname: dcl-19
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.49
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-2:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_2
+    - --port
+    - '5000'
+    container_name: hfa-dcl-2
+    hostname: dcl-2
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.32
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-3:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_3
+    - --port
+    - '5000'
+    container_name: hfa-dcl-3
+    hostname: dcl-3
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.33
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-4:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_4
+    - --port
+    - '5000'
+    container_name: hfa-dcl-4
+    hostname: dcl-4
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.34
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-5:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_5
+    - --port
+    - '5000'
+    container_name: hfa-dcl-5
+    hostname: dcl-5
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.35
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-6:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_6
+    - --port
+    - '5000'
+    container_name: hfa-dcl-6
+    hostname: dcl-6
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.36
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-7:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_7
+    - --port
+    - '5000'
+    container_name: hfa-dcl-7
+    hostname: dcl-7
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.37
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-8:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_8
+    - --port
+    - '5000'
+    container_name: hfa-dcl-8
+    hostname: dcl-8
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.38
+    volumes:
+    - ../:/app
+    working_dir: /app
+  dcl-9:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - dcl
+    - --domain
+    - DCL_9
+    - --port
+    - '5000'
+    container_name: hfa-dcl-9
+    hostname: dcl-9
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.39
+    volumes:
+    - ../:/app
+    working_dir: /app
+  gcl:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - gcl
+    - --port
+    - '5000'
+    - --domains
+    - DCL_0,DCL_1,DCL_2,DCL_3,DCL_4,DCL_5,DCL_6,DCL_7,DCL_8,DCL_9,DCL_10,DCL_11,DCL_12,DCL_13,DCL_14,DCL_15,DCL_16,DCL_17,DCL_18,DCL_19
+    container_name: hfa-gcl
+    hostname: gcl
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.20
+    volumes:
+    - ../:/app
+    working_dir: /app
+  rtl:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - python
+    - -m
+    - docker.node_service
+    - --role
+    - rtl
+    - --port
+    - '5000'
+    container_name: hfa-rtl
+    hostname: rtl
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.10
+    volumes:
+    - ../:/app
+    working_dir: /app
+  verifier:
+    cap_add:
+    - NET_ADMIN
+    command:
+    - sleep
+    - infinity
+    container_name: hfa-verifier
+    hostname: verifier
+    image: hfa-did-node
+    networks:
+      hfa-net:
+        ipv4_address: 172.20.0.100
+    volumes:
+    - ../:/app
+    working_dir: /app
